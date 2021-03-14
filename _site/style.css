@@ -33,7 +33,14 @@ body {
     color: black;
     margin: 10px;
     text-align: center;
-    font-size: 1.8em;
+    font-size: 4 em;
+  }
+
+  .nav-link {
+    color: rgb(179, 92, 92);
+    margin: 10px;
+    text-align: center;
+    font-size: 4 em;
   }
 
   .page-hero {
