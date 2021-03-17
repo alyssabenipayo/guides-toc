@@ -1,49 +1,54 @@
 body {
-    font-family: 'nunito';
-    max-width: 600px;
-    margin: 0 auto;
-    background: rgb(255, 255, 255);
-    color:black;
+  font-family: 'nunito';
+  max-width: 600px;
+  margin: 0 auto;
+  background: rgb(255, 255, 255);
+  color:black;
 }
 
+/* Top Navigation */
 .link {
-    padding: 5px 10px;
-    background: #333;
-    color: #eee;
-    text-decoration: none;
+  padding: 5px 10px;
+  background: #333;
+  color: #eee;
+  text-decoration: none;
 }
 
+/* The side navigation menu */
 #navbar {
-    position: fixed;
-    height: 100%;
-    min-width: 300px;
-    width: 300px;
-    
-    top: 0px;
-    left: 0px;
-    
-    color: black;
-    background-color: rgb(218, 216, 216);
-    padding: 75px 0px;
-    z-index: 3;
-    
-  }
+  position: fixed;
+  height: 100%;
+  min-width: 300px;
+  width: 300px;
+  
+  top: 0px;
+  left: 0px;
+  
+  color: black;
+  background-color: rgb(218, 216, 216);
+  padding: 75px 0px;
+  z-index: 3;
+  
+}
 
-  #navbar header {
-    color: black;
-    margin: 10px;
-    text-align: center;
-    font-size: 4 em;
-  }
+#navbar header {
+  color: black;
+  margin: 10px;
+  text-align: center;
+  font-size: 4 em;
+}
 
-  .nav-link {
-    color: rgb(179, 92, 92);
-    margin: 10px;
-    text-align: center;
-    font-size: 4 em;
-  }
 
-  .page-hero {
-    max-width: 600px;
-    margin: 0 auto;
-  }
+/* The navigation menu links */
+.nav-link {
+  color: rgb(179, 92, 92);
+  margin: 10px;
+  text-align: center;
+  font-size: 4 em;
+}
+
+/* Hack for LA Banner */
+.page-hero {
+  max-width: 600px;
+  margin: 0 auto;
+}
