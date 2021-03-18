@@ -1,3 +1,5 @@
 title: Hello World
 
 description: This is a prototype for Hack for LA's Guide Pages.
+
+baseurl: /hello-world

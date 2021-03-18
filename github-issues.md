@@ -1,6 +1,7 @@
 ---
 layout: guide-pages
 title: Getting the Most Out of GitHub Issues
+permalink: /github-issues 
 nav:
   - name: Example of a Good End-to-End Issue
     link: '#example-of-a-good-end-to-end-issue'
@@ -23,7 +24,7 @@ An effective Hack for LA Github issue includes the following components:
 
 *Click any section link below to jump down to its description*
 
-![Example](../images/most-of-gh-1.jpg "Example")
+![Example](images/most-of-gh-1.jpg "Example")
 
 *This issue is shown in Preview mode*
 
@@ -44,5 +45,5 @@ For an issue taking on only part of the workflow, be more declarative in what it
 
 
 <p align="center">
-  <img src="../images/gray-arrow.svg">
+  <img src="images/gray-arrow.svg">
 </p>
