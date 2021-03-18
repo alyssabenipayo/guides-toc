@@ -12,6 +12,6 @@ If link does not work, please see the following:
 
 Outputs after testing locally:
 
-![image](https://user-images.githubusercontent.com/38295612/111579070-88701380-8772-11eb-8955-e149f749cf78.png)
-![image](https://user-images.githubusercontent.com/38295612/111579038-78583400-8772-11eb-83c7-c9b76993cd95.png)
-![image](https://user-images.githubusercontent.com/38295612/111579008-68d8eb00-8772-11eb-960f-57729c9c826a.png)
+![image](https://user-images.githubusercontent.com/38295612/111595873-d17f9200-8789-11eb-83a8-801310e2d313.png)
+![image](https://user-images.githubusercontent.com/38295612/111595921-d8a6a000-8789-11eb-8c08-f9801da39fb8.png)
+![image](https://user-images.githubusercontent.com/38295612/111595947-e1977180-8789-11eb-8d64-4a3b716affd8.png)
