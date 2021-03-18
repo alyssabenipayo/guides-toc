@@ -1,4 +1,4 @@
-I"Ý<h1 id="building-a-survey-reporting-dashboard">Building a Survey Reporting Dashboard</h1>
+I"ä<h1 id="building-a-survey-reporting-dashboard">Building a Survey Reporting Dashboard</h1>
 
 <p>Google Analytics includes a number of tools that allow individuals and teams to capture and analyze different types of data. These tools are especially valuable when it comes to survey-based user research.</p>
 
@@ -14,11 +14,11 @@
 
 <p>Click the vertical elipsis located at the top right of the survey form.</p>
 
-<p><img src="/images/vertical-elipsis.png" alt="Vertical Elipsis" title="Vertical Elipsis" /></p>
+<p><img src="../images/vertical-elipsis.png" alt="Vertical Elipsis" title="Vertical Elipsis" /></p>
 
 <p align="center">
-  <img src="images/gray-arrow.svg" />
+  <img src="../images/gray-arrow.svg" />
 </p>
 
-<p><img src="/images/select-response-destination.png" alt="Select Response Destination" title="Select Response Destination" /></p>
+<p><img src="../images/select-response-destination.png" alt="Select Response Destination" title="Select Response Destination" /></p>
 :ET
