@@ -1,7 +1,7 @@
 ---
 layout: guide-pages
 title: Getting the Most Out of GitHub Issues
-permalink: /github-issues 
+provider-link: '/github-issues' 
 nav:
   - name: Example of a Good End-to-End Issue
     link: '#example-of-a-good-end-to-end-issue'
