@@ -2,10 +2,10 @@
 layout: default
 title: Home
 ---
-    <h1>This is a Home Page.</h1>
-
     <h1>{{site.title}}</h1>
     <h1>{{site.description}}</h1>
     <h1>{{site.buzz}}</h1>
 
-    
+    <a class="link" href="{{ '/2FA' |  prepend: site.baseurl }}">2FA</a>
+    <a class="link" href="{{ '/survey' |  prepend: site.baseurl }}">Survey</a>
+    <a class="link" href="{{ '/github-issues' |  prepend: site.baseurl }}">GH Issues</a>
