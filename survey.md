@@ -1,6 +1,11 @@
 ---
-layout: survey
-title: Hack for LA Guide Page
+layout: guide-pages
+title: Building a Survey Reporting Dashboard
+nav:
+  - name: Link Google Form to Google Sheets
+    link: '#link-google-form-to-google-sheets'
+  - name: Select Response Destination
+    link: '#select-response-destination'  
 ---
 
 # Building a Survey Reporting Dashboard
@@ -21,10 +26,10 @@ Link your survey results to a designated Google Sheets workbook
 
 Click the vertical elipsis located at the top right of the survey form.
 
-![Vertical Elipsis](/images/vertical-elipsis.png "Vertical Elipsis")
+![Vertical Elipsis](../images/vertical-elipsis.png "Vertical Elipsis")
 
 <p align="center">
-  <img src="images/gray-arrow.svg">
+  <img src="../images/gray-arrow.svg">
 </p>
 
-![Select Response Destination](/images/select-response-destination.png "Select Response Destination")
+![Select Response Destination](../images/select-response-destination.png "Select Response Destination")
