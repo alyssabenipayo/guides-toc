@@ -2,11 +2,6 @@
 layout: guide-pages
 title: Getting the Most Out of GitHub Issues
 provider-link: '/github-issues' 
-nav:
-  - name: Example of a Good End-to-End Issue
-    link: '#example-of-a-good-end-to-end-issue'
-  - name: Issue Sections - Description and Tips
-    link: '#example-of-a-good-end-to-end-issue'  
 ---
 
 # Getting the Most Out of GitHub Issues
