@@ -1,7 +1,7 @@
 ---
 layout: guide-pages
 title: Building a Survey Reporting Dashboard
-permalink: /survey 
+provider-link: '/survey'
 nav:
   - name: Link Google Form to Google Sheets
     link: '#link-google-form-to-google-sheets'
