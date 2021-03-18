@@ -1,36 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="/style.css">
-    <title>This is a Building a Survey Reporting Dashboard Page</title>
-</head>
-
-<body>
-<header>
-    <a class="link" href="/">Home</a>
-    <a class="link" href="/about.html">About</a>
-    <a class="link" href="/contact.html">Contact</a>
-    <a href="/" title=""></a>
-</header>
-
-
-<img class='page-hero' src="images/guide-page-hero.png">
-
-
-    <body>
-  <nav id="navbar">
-      <header>Survey Navigation</header>
-        <a class="nav-link" href="#link-google-form-to-google-sheets"> Link Google Form to Google Sheets </a><br>
-        <a class="nav-link" href="#select-response-destination"> Select Response Destination </a>
-       
-      </nav>
-</body>
-
-
-
-<h1 id="building-a-survey-reporting-dashboard">Building a Survey Reporting Dashboard</h1>
+I"Û<h1 id="building-a-survey-reporting-dashboard">Building a Survey Reporting Dashboard</h1>
 
 <p>Google Analytics includes a number of tools that allow individuals and teams to capture and analyze different types of data. These tools are especially valuable when it comes to survey-based user research.</p>
 
@@ -53,9 +21,4 @@
 </p>
 
 <p><img src="images/select-response-destination.png" alt="Select Response Destination" title="Select Response Destination" /></p>
-
-
-
-
-</body>
-</html>
+:ET

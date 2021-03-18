@@ -1,36 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="/style.css">
-    <title>This is a Getting the Most Out of GitHub Issues Page</title>
-</head>
-
-<body>
-<header>
-    <a class="link" href="/">Home</a>
-    <a class="link" href="/about.html">About</a>
-    <a class="link" href="/contact.html">Contact</a>
-    <a href="/" title=""></a>
-</header>
-
-
-<img class='page-hero' src="images/guide-page-hero.png">
-
-
-    <body>
-    <nav id="navbar">
-        <header>Survey Navigation</header>
-          <a class="nav-link" href="#getting-the-most-out-of-github-issues"> Example of a Good End-to-End Issue </a><br>
-          <a class="nav-link" href="#issue-sections-descriptions-and-tips"> Issue Sections - Description and Tips </a>
-         
-        </nav>
-  </body>
-  
-
-
-<h1 id="getting-the-most-out-of-github-issues">Getting the Most Out of GitHub Issues</h1>
+I"t<h1 id="getting-the-most-out-of-github-issues">Getting the Most Out of GitHub Issues</h1>
 
 <p>Each of Hack for LA’s GitHub project repositories (repos) use <a href="https://guides.github.com/features/issues/">issues</a> to track and organize ideas, enhancements, and tasks. All team members will use GitHub issues to communicate in our multifunctional teams.</p>
 
@@ -65,9 +33,4 @@
 <p align="center">
   <img src="images/gray-arrow.svg" />
 </p>
-
-
-
-
-</body>
-</html>
+:ET

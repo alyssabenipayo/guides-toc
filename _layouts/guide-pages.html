@@ -2,12 +2,12 @@
 layout: default
 ---
 
-<img class='page-hero' src="../images/guide-page-hero.png">
+<img class='page-hero' src="images/guide-page-hero.png">
 
 {% if page.title == "Building a Survey Reporting Dashboard" %}
-    {% include survey-nav.html %}
+    {% include navbar-survey.html %}
 {% elsif page.title == "Getting the Most Out of GitHub Issues" %}
-    {% include gh-issue-nav.html %}
+    {% include navbar-ghissues.html %}
 {% endif %}
 
 {{content}}
