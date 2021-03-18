@@ -2,11 +2,6 @@
 layout: guide-pages
 title: Building a Survey Reporting Dashboard
 provider-link: '/survey'
-nav:
-  - name: Link Google Form to Google Sheets
-    link: '#link-google-form-to-google-sheets'
-  - name: Select Response Destination
-    link: '#select-response-destination'
 ---
 
 # Building a Survey Reporting Dashboard
