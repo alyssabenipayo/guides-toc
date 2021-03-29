@@ -9,43 +9,73 @@ body {
 /* Top Navigation */
 .link {
   padding: 5px 10px;
-  background: #333;
-  color: #eee;
+  background: rgb(216, 102, 102);
   text-decoration: none;
+  color: rgb(255, 255, 255);
 }
 
-/* The side navigation menu */
-#navbar {
+/* Makes the navigation stick */
+.stick-it {
   position: fixed;
-  height: 100%;
-  min-width: 300px;
-  width: 300px;
-  
-  top: 0px;
-  left: 0px;
-  
-  color: black;
+  top: 45px;
+  left: 1070px;
+  z-index: 1;  
   background-color: rgb(218, 216, 216);
-  padding: 75px 0px;
-  z-index: 3;
-  
 }
 
-#navbar header {
+
+/* Styles the sticky navigation links */
+.sticky-nav li {
+  position: relative;
+  list-style-type: none;
+  margin-bottom: 15px;
+}
+
+/* Make the active link different */
+.is-active {
+  font-weight: 700;
+  color: #333 !important;
+}
+
+.is-active a {
+  font-weight: 700;
+}
+
+.is-active a:link, .is-active a:visited, .is-active a:hover, .is-active a:active, .is-active a:focus {
   color: black;
-  margin: 10px;
-  text-align: center;
-  font-size: 4 em;
+}
+
+/*  The arrow beside the link*/
+.is-active::before {
+  position: absolute;
+  content: "\25C0";
+  font-size: 10px;
+  margin-left: -35px;
+  margin-top: 5px;
+}
+
+/*  This adjustment is so that the page scrolls to the correct place when you hit the nav links */
+
+a.anchor {
+  display: block;
+  position: relative;
+  top: -75x;
+  visibility: hidden;
+}
+
+.sticky-nav {
+  grid-area: nav;
+  background: #fff;
+  border: 0px solid rgba(51, 51, 51, 0.06);
+  border-radius: 16px;
+  box-shadow: 0 0 8px 0 rgba(51, 51, 51, 0.2);
+  width: 275px;
+  padding: 35px 40px 15px 26px;
+  margin-top: 12px;
+  right: 60px;
 }
 
 
-/* The navigation menu links */
-.nav-link {
-  color: rgb(179, 92, 92);
-  margin: 10px;
-  text-align: center;
-  font-size: 4 em;
-}
 
 /* Hack for LA Banner */
 .page-hero {
