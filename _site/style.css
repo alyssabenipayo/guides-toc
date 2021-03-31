@@ -17,10 +17,9 @@ body {
 /* Makes the navigation stick */
 .stick-it {
   position: fixed;
-  top: 45px;
-  left: 1070px;
-  z-index: 1;  
-  background-color: rgb(218, 216, 216);
+  top:67px;
+  z-index: 1;
+  right: 200px;
 }
 
 
@@ -73,8 +72,8 @@ a.anchor {
   padding: 35px 40px 15px 26px;
   margin-top: 12px;
   right: 60px;
+  position: fixed;
 }
-
 
 
 /* Hack for LA Banner */
