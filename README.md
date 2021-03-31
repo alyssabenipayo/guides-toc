@@ -14,7 +14,9 @@ If link does not work, please see the following:
 
 <details><summary>Quick Previews (NEW)</summary>
   
-[Coming Soon...]
+![image](https://user-images.githubusercontent.com/38295612/111595873-d17f9200-8789-11eb-83a8-801310e2d313.png)
+![image](https://user-images.githubusercontent.com/38295612/113084045-1f38c900-9192-11eb-9d82-416a4a453ef5.png)
+![image](https://user-images.githubusercontent.com/38295612/113084069-29f35e00-9192-11eb-98fc-28eec2d0a339.png)
 
 </details>
 
