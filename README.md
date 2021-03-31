@@ -12,6 +12,12 @@ If link does not work, please see the following:
 - [Survey (Test)](https://alyssabenipayo.github.io/hello-world/survey)
 - [GH Issues (Test)](https://alyssabenipayo.github.io/hello-world/github-issues)
 
+<details><summary>Quick Previews (NEW)</summary>
+  
+[Coming Soon...]
+
+</details>
+
 
 <details><summary>Quick Previews (OLD)</summary>
   
