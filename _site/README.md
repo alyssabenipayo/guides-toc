@@ -12,7 +12,11 @@ If link does not work, please see the following:
 - [Survey (Test)](https://alyssabenipayo.github.io/hello-world/survey)
 - [GH Issues (Test)](https://alyssabenipayo.github.io/hello-world/github-issues)
 
-Quick Previews:
+
+<details><summary>Quick Previews (OLD)</summary>
+  
 ![image](https://user-images.githubusercontent.com/38295612/111595873-d17f9200-8789-11eb-83a8-801310e2d313.png)
 ![image](https://user-images.githubusercontent.com/38295612/111595921-d8a6a000-8789-11eb-8c08-f9801da39fb8.png)
 ![image](https://user-images.githubusercontent.com/38295612/111595947-e1977180-8789-11eb-8d64-4a3b716affd8.png)
+
+</details>

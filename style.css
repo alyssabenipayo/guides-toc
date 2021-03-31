@@ -14,28 +14,12 @@ body {
   text-decoration: none;
 }
 
-/* The side navigation menu */
-#navbar {
+/*Makes the sticky navigation stick */
+.stick-it {
   position: fixed;
   top:67px;
   z-index: 1;
-  right: 200px;
-}
-
-#navbar header {
-  color: black;
-  margin: 10px;
-  text-align: center;
-  font-size: 4 em;
-}
-
-
-/* The navigation menu links */
-.nav-link {
-  color: rgb(179, 92, 92);
-  margin: 10px;
-  text-align: center;
-  font-size: 4 em;
+  right: 125px;
 }
 
 .sticky-nav {
@@ -51,6 +35,41 @@ body {
   position: fixed;
 }
 
+/* This adjustment is so that the page scrolls to the correct place when you hit the nav links */
+a.anchor { 
+  display: block;
+  position: relative;
+  top: -75x;
+  visibility: hidden;
+}
+
+
+/* Style the sticky nav links */
+.sticky-nav li {
+  list-style-type: none;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+/*  Make the active link different */
+.is-active {
+  font-weight: 700;
+  color: #333 !important;
+}
+.is-active a {
+  font-weight: 700;
+}
+.is-active a:link, .is-active a:visited, .is-active a:hover, .is-active a:active, .is-active a:focus {
+  color: black;
+}
+
+.is-active::before {
+  position: absolute;
+  content: "\25C0";
+  font-size: 10px;
+  margin-left: -35px;
+  margin-top: 5px;
+}
 
 /* Hack for LA Banner */
 .page-hero {
