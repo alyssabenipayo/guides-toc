@@ -2,6 +2,8 @@
 
 Working Prototype for Hack for LA Website's guide pages.
 
+Progress: Sticky Nav Bar WIP.
+
 [Site Preview](https://alyssabenipayo.github.io/hello-world/)
 
 If link does not work, please see the following:
