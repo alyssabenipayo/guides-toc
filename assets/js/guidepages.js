@@ -26,7 +26,7 @@ window.addEventListener('scroll', stickItHere);
 /*************************************************/
 
 //locate all the navigation links and arrows
-let navLinks = document.querySelectorAll(".sticky-nav a");
+let navLinks = document.querySelectorAll('.sticky-nav a');
 
 for (let i = 0; i < navLinks.length; i++) {
 
@@ -60,7 +60,7 @@ for (let i = 0; i < navLinks.length; i++) {
 
 // Initialize
 //locate all the navigation links
-let quickLinks = document.querySelectorAll(".sticky-nav a");
+let quickLinks = document.querySelectorAll('.sticky-nav a');
 let qlArray = [];
 let positionArray = [];
 
@@ -75,7 +75,7 @@ for (var i = 0; i < qlArray.length; i++) {
     positionArray.push(document.getElementById(qlArray[i]).getBoundingClientRect().top);
 }
 
-document.addEventListener("scroll", scrollHandler, true);
+document.addEventListener('scroll', scrollHandler, true);
 
 // alignment of page card with its corresponding link on the sticky navigation 
 function scrollHandler() {
@@ -99,3 +99,4 @@ function scrollHandler() {
     quickLinks[qlArray.length - 1].classList.add('is-active');
 
 };
+
