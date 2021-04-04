@@ -28,6 +28,7 @@ body {
   border: 0px solid rgba(51, 51, 51, 0.06);
   border-radius: 16px;
   box-shadow: 0 0 8px 0 rgba(51, 51, 51, 0.2);
+  overflow: hidden;
   width: 275px;
   padding: 35px 40px 15px 26px;
   margin-top: 12px;
@@ -36,10 +37,10 @@ body {
 }
 
 /* This adjustment is so that the page scrolls to the correct place when you hit the nav links */
-a.anchor { 
+.anchor { 
   display: block;
   position: relative;
-  top: -75x;
+  top: -75px;
   visibility: hidden;
 }
 
@@ -62,13 +63,24 @@ a.anchor {
 .is-active a:link, .is-active a:visited, .is-active a:hover, .is-active a:active, .is-active a:focus {
   color: black;
 }
-
 .is-active::before {
   position: absolute;
   content: "\25C0";
   font-size: 10px;
   margin-left: -35px;
   margin-top: 5px;
+}
+
+/* WIP */
+.sticky-nav-inner-grid {
+  display: grid;
+  grid-template-columns: 15px auto;
+  grid-template-rows: auto;
+  grid-template-areas: 
+    "content";
+  align-items: start;
+  margin-top: 20px;
+  scroll-behavior: smooth;
 }
 
 /* Hack for LA Banner */
