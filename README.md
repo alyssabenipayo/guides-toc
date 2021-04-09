@@ -14,9 +14,9 @@ If link does not work, please see the following:
 
 <details><summary>Quick Previews (NEW)</summary>
   
-![image](https://user-images.githubusercontent.com/38295612/111595873-d17f9200-8789-11eb-83a8-801310e2d313.png)
-![image](https://user-images.githubusercontent.com/38295612/113084045-1f38c900-9192-11eb-9d82-416a4a453ef5.png)
-![image](https://user-images.githubusercontent.com/38295612/113084069-29f35e00-9192-11eb-98fc-28eec2d0a339.png)
+![image](https://user-images.githubusercontent.com/38295612/114249301-1775e300-994f-11eb-99de-f69348a23632.png)
+![image](https://user-images.githubusercontent.com/38295612/114249282-088f3080-994f-11eb-87ee-307822a61d28.png)
+![image](https://user-images.githubusercontent.com/38295612/114249313-1fce1e00-994f-11eb-85d1-6e2c6f4781f6.png)
 
 </details>
 
