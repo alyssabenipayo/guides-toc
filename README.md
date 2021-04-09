@@ -13,10 +13,10 @@ If link does not work, please see the following:
 - [GH Issues (Test)](https://alyssabenipayo.github.io/hello-world/github-issues)
 
 <details><summary>Quick Previews (NEW)</summary>
-  
-![image](https://user-images.githubusercontent.com/38295612/114249301-1775e300-994f-11eb-99de-f69348a23632.png)
-![image](https://user-images.githubusercontent.com/38295612/114249282-088f3080-994f-11eb-87ee-307822a61d28.png)
+
 ![image](https://user-images.githubusercontent.com/38295612/114249313-1fce1e00-994f-11eb-85d1-6e2c6f4781f6.png)
+![image](https://user-images.githubusercontent.com/38295612/114249378-4be99f00-994f-11eb-8411-6a44c2628c50.png)
+![image](https://user-images.githubusercontent.com/38295612/114249392-560b9d80-994f-11eb-88f9-4d7dda10ee1f.png)
 
 </details>
 
