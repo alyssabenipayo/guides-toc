@@ -4,10 +4,23 @@ layout: default
 
 <img class='page-hero' src="images/guide-page-hero.png">
 
-{% if page.title == "Building a Survey Reporting Dashboard" %}
-    {% include navbar-survey.html %}
-{% elsif page.title == "Getting the Most Out of GitHub Issues" %}
-    {% include navbar-ghissues.html %}
+{% if page.sections %}
+<body>
+    <a class=anchor></a>
+      <nav id="sticky-nav" class="sticky-nav">
+          <header>Navigation</header>
+          <ul>
+            {% for section in page.sections %}
+            <li><a href="{{ section.href }}"> {{ section.title }} </a><br></li>
+            {% endfor %}
+          </ul> 
+          </nav>
+    </body>
 {% endif %}
 
+
+  <!-- Include javaScript -->
+  <script src="{{ '/assets/js/guidepages.js' | absolute_url }}"></script>
 {{content}}
+
+

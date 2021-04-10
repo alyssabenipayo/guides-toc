@@ -1,32 +1,10 @@
-/**************************************/
-/**** Script 1: Sticky Navigation *****/
-/**************************************/
-
-//Initialize and set defaults
-
-let stickyNav = document.querySelector("#sticky-nav");
-let stickyNavTop = 343;
-
-// When the menu reaches the position we want it to stick at, this adds a class and some padding.
-function stickItHere() {
-    if (window.scrollY >= stickyNavTop) {
-        //stickyNav.style.paddingTop = nav.offsetHeight + 'px';
-        stickyNav.classList.add('stick-it');
-    } else {
-        //stickyNav.style.paddingTop = 0;
-        stickyNav.classList.remove('stick-it');
-    }
-}
-
-// Listen to the scrolling to find when it reaches the sticky spot
-window.addEventListener('scroll', stickItHere);
-
 /*************************************************/
-/**** Script 2: Highlight Links when clicked *****/
+/**** Script 1: Highlight Links when clicked *****/
 /*************************************************/
 
 //locate all the navigation links and arrows
 let navLinks = document.querySelectorAll('.sticky-nav a');
+navLinks [0].classList.add('is-active');
 
 for (let i = 0; i < navLinks.length; i++) {
 
@@ -55,14 +33,14 @@ for (let i = 0; i < navLinks.length; i++) {
 
 
 /***************************************************/
-/**** Script 3: Highlight links when scrolling *****/
+/**** Script 2: Highlight links when scrolling *****/
 /***************************************************/
 
 // Initialize
 //locate all the navigation links
 let quickLinks = document.querySelectorAll('.sticky-nav a');
 let qlArray = [];
-let positionArray = [];
+
 
 for (let i = 0; i < quickLinks.length; i++) {
 
@@ -70,10 +48,7 @@ for (let i = 0; i < quickLinks.length; i++) {
     qlArray.push(quickLinks[i].href.substring(quickLinks[i].href.indexOf('#') + 1));
 }
 
-// create an array of the position of each id
-for (var i = 0; i < qlArray.length; i++) {
-    positionArray.push(document.getElementById(qlArray[i]).getBoundingClientRect().top);
-}
+
 
 document.addEventListener('scroll', scrollHandler, true);
 
