@@ -11,10 +11,18 @@ layout: default
           <header>Navigation</header>
           <ul>
             {% for section in page.sections %}
-            <li><a href="{{ section.href }}"> {{ section.title }} </a><br></li>
+            <li><a href="{{ section.href }}"> {{ section.title }} </a><br>
+              {% if section.subsection[0] %}
+              <ul><br>
+                {% for subsection in section.subsection %}
+                <li><a href="{{ subsection.href }}">{{ subsection.title }}</a></li>
+                  {% endfor %}
+                  </ul>
+                {% endif %}
+              </li>
             {% endfor %}
           </ul> 
-          </nav>
+        </nav>
     </body>
 {% endif %}
 
