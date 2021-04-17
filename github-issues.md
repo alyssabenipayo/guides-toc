@@ -7,6 +7,11 @@ sections:
       href: "#getting-the-most-out-of-github-issues"
     - title: "Issue Sections: Descriptions and Tips"
       href: "#issue-sections-descriptions-and-tips"
+      subsection: 
+        - title: "New Subheading Here"
+          href: "#new-subheading-here"
+        - title: "Lorem Ipsum"
+          href: "#lorem-ipsum"
 ---
 
 # Getting the Most Out of GitHub Issues
@@ -35,7 +40,12 @@ Follow the recommendations below to create a useful end-to-end GitHub issue
 
 *You can either format with markdown text manually or using the text box toolbar*
 
-### TITLE
+
+<p align="center">
+  <img src="images/gray-arrow.svg">
+</p>
+
+### New Subheading Here
 
 Describe what you’re working on —
 
@@ -43,7 +53,16 @@ For a start-to-finish issue, as in this case, choose a title that is generic eno
 
 For an issue taking on only part of the workflow, be more declarative in what it covers (e.g. a research issue might be called “Determine Best Testing Library for Code Base”).
 
+<!-- ![Placeholder](images/download.png "Placeholder") -->
 
 <p align="center">
   <img src="images/gray-arrow.svg">
 </p>
+
+### Lorem Ipsum
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc elementum sodales gravida. Nulla in eros purus. Nullam aliquam lacus erat, vel elementum orci egestas vel. Curabitur ut pellentesque dolor. Vestibulum tristique metus id convallis convallis. Pellentesque condimentum, nisl sit amet euismod elementum, ex nibh tincidunt orci, nec accumsan risus eros at sapien. Phasellus risus elit, condimentum vel risus sit amet, mattis auctor velit. Cras pulvinar finibus massa, eu auctor leo feugiat ornare. Proin ut pellentesque justo. Nunc tempor lorem lorem, sed maximus tortor vestibulum eget. Morbi non dui non sapien rutrum interdum. Donec vel orci ante. Phasellus non diam vel dolor lobortis eleifend a in lorem. Duis lacinia vel massa vel auctor.
+
+Ut faucibus blandit fermentum. Nulla vel mattis odio, ut interdum leo. Fusce nisi neque, consequat sed lacus nec, iaculis tristique mauris. Phasellus iaculis justo vel leo ornare mollis. In ultricies nisi ac feugiat aliquet. Suspendisse maximus urna vitae pharetra laoreet. Fusce mollis odio dolor, ut auctor ex suscipit nec. Donec vel dapibus nibh. Sed vehicula est quis diam condimentum, in euismod orci pulvinar. Etiam viverra, est eget tempus elementum, tortor augue sodales lorem, eu imperdiet dolor sapien at lorem. 
+
+

@@ -2,7 +2,7 @@
 
 Working Prototype for Hack for LA Website's guide pages.
 
-Progress: Sticky Nav Bar WIP.
+Progress: Waiting for approval.
 
 [Site Preview](https://alyssabenipayo.github.io/hello-world/)
 
@@ -13,10 +13,10 @@ If link does not work, please see the following:
 - [GH Issues (Test)](https://alyssabenipayo.github.io/hello-world/github-issues)
 
 <details><summary>Quick Previews (NEW)</summary>
-  
-![image](https://user-images.githubusercontent.com/38295612/111595873-d17f9200-8789-11eb-83a8-801310e2d313.png)
-![image](https://user-images.githubusercontent.com/38295612/113084045-1f38c900-9192-11eb-9d82-416a4a453ef5.png)
-![image](https://user-images.githubusercontent.com/38295612/113084069-29f35e00-9192-11eb-98fc-28eec2d0a339.png)
+
+![image](https://user-images.githubusercontent.com/38295612/114249313-1fce1e00-994f-11eb-85d1-6e2c6f4781f6.png)
+![image](https://user-images.githubusercontent.com/38295612/114249378-4be99f00-994f-11eb-8411-6a44c2628c50.png)
+![image](https://user-images.githubusercontent.com/38295612/114249392-560b9d80-994f-11eb-88f9-4d7dda10ee1f.png)
 
 </details>
 
