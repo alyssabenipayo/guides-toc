@@ -60,7 +60,7 @@ function scrollHandler() {
     for (let i = 0; i < qlArray.length - 1; i++) {
         const top = document.getElementById(qlArray[i]).getBoundingClientRect().top
         const bottom = document.getElementById(qlArray[i + 1]).getBoundingClientRect().top
-        if (top > 0 && top < vh * 0.8 || bottom >= vh * 0.8) {
+        if (top > 0 && top < vh * 0.8 || bottom >= vh * 0.7) {
             if (currentActive != undefined) {
                 currentActive.classList.remove('is-active');
             }

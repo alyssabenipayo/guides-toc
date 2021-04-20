@@ -10,6 +10,10 @@ sections:
       subsection: 
         - title: "Lorem Ipsum"
           href: "#lorem-ipsum"
+        - title: "Lorem Ipsum"
+          href: "#lorem-ipsum"
+        - title: "Lorem Ipsum"
+          href: "#lorem-ipsum"
 ---
 
 # Building a Survey Reporting Dashboard
@@ -41,6 +45,28 @@ Click the vertical elipsis located at the top right of the survey form.
 <p align="center">
   <img src="images/gray-arrow.svg">
 </p>
+
+### Lorem Ipsum
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc elementum sodales gravida. Nulla in eros purus. Nullam aliquam lacus erat, vel elementum orci egestas vel. Curabitur ut pellentesque dolor. Vestibulum tristique metus id convallis convallis. Pellentesque condimentum, nisl sit amet euismod elementum, ex nibh tincidunt orci, nec accumsan risus eros at sapien. Phasellus risus elit, condimentum vel risus sit amet, mattis auctor velit. Cras pulvinar finibus massa, eu auctor leo feugiat ornare. Proin ut pellentesque justo. Nunc tempor lorem lorem, sed maximus tortor vestibulum eget. Morbi non dui non sapien rutrum interdum. Donec vel orci ante. Phasellus non diam vel dolor lobortis eleifend a in lorem. Duis lacinia vel massa vel auctor.
+
+Ut faucibus blandit fermentum. Nulla vel mattis odio, ut interdum leo. Fusce nisi neque, consequat sed lacus nec, iaculis tristique mauris. Phasellus iaculis justo vel leo ornare mollis. In ultricies nisi ac feugiat aliquet. Suspendisse maximus urna vitae pharetra laoreet. Fusce mollis odio dolor, ut auctor ex suscipit nec. Donec vel dapibus nibh. Sed vehicula est quis diam condimentum, in euismod orci pulvinar. Etiam viverra, est eget tempus elementum, tortor augue sodales lorem, eu imperdiet dolor sapien at lorem. 
+
+<p align="center">
+  <img src="images/gray-arrow.svg">
+</p>
+
+
+### Lorem Ipsum
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc elementum sodales gravida. Nulla in eros purus. Nullam aliquam lacus erat, vel elementum orci egestas vel. Curabitur ut pellentesque dolor. Vestibulum tristique metus id convallis convallis. Pellentesque condimentum, nisl sit amet euismod elementum, ex nibh tincidunt orci, nec accumsan risus eros at sapien. Phasellus risus elit, condimentum vel risus sit amet, mattis auctor velit. Cras pulvinar finibus massa, eu auctor leo feugiat ornare. Proin ut pellentesque justo. Nunc tempor lorem lorem, sed maximus tortor vestibulum eget. Morbi non dui non sapien rutrum interdum. Donec vel orci ante. Phasellus non diam vel dolor lobortis eleifend a in lorem. Duis lacinia vel massa vel auctor.
+
+Ut faucibus blandit fermentum. Nulla vel mattis odio, ut interdum leo. Fusce nisi neque, consequat sed lacus nec, iaculis tristique mauris. Phasellus iaculis justo vel leo ornare mollis. In ultricies nisi ac feugiat aliquet. Suspendisse maximus urna vitae pharetra laoreet. Fusce mollis odio dolor, ut auctor ex suscipit nec. Donec vel dapibus nibh. Sed vehicula est quis diam condimentum, in euismod orci pulvinar. Etiam viverra, est eget tempus elementum, tortor augue sodales lorem, eu imperdiet dolor sapien at lorem. 
+
+<p align="center">
+  <img src="images/gray-arrow.svg">
+</p>
+
 
 ### Lorem Ipsum
 
