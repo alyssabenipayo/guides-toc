@@ -1,4 +1,4 @@
-# hello-world
+# Guide Pages Prototype
 
 Working Prototype for Hack for LA Website's guide pages.
 
