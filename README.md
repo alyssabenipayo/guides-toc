@@ -5,7 +5,8 @@ Working Prototype for Hack for LA Website's guide pages.
 Progress: Waiting for approval.
 
 [Site Preview](https://alyssabenipayo.github.io/hello-world/)
-More details can be found in this [GH Issue](https://github.com/hackforla/website/issues/1085).
+
+More details can also be found in this [GH Issue](https://github.com/hackforla/website/issues/1085).
 
 If link does not work, please see the following:
 
