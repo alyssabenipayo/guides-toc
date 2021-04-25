@@ -2,7 +2,7 @@
 
 Working Prototype for Hack for LA Website's guide pages.
 
-Progress: Waiting for approval.
+Progress: Pending.
 
 [Site Preview](https://alyssabenipayo.github.io/hello-world/)
 
