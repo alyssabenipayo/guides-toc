@@ -2,7 +2,7 @@
 
 Working Prototype for Hack for LA Website's guide pages.
 
-Progress: Pending.
+Prototype GH Issue Status: Completed.
 
 [Site Preview](https://alyssabenipayo.github.io/hello-world/)
 
