@@ -53,7 +53,7 @@ For a start-to-finish issue, as in this case, choose a title that is generic eno
 
 For an issue taking on only part of the workflow, be more declarative in what it covers (e.g. a research issue might be called “Determine Best Testing Library for Code Base”).
 
-<!-- ![Placeholder](images/download.png "Placeholder") -->
+![Placeholder](images/download.png "Placeholder")
 
 <p align="center">
   <img src="images/gray-arrow.svg">

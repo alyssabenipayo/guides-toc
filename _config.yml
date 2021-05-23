@@ -2,6 +2,6 @@ title: Hack for LA Guide Pages Prototype
 description: 
   This prototype is to research how to create formatted guide pages with Markdown so that it can be reusable for our website.
 safe: true
-baseurl: /hello-world
+baseurl: /guide-pages-prototype
 
 
