@@ -90,13 +90,6 @@ body {
   
 /* ==========================================================*/
 
-  /* For mobile phones - hides navbar */
-/* @media screen and (min-width: 650px) {
-  .sticky-nav {
-      display: none;
-   }
-} */
-
 @media only screen and (max-width : 667px) {
   .sticky-nav {
       display: none;
