@@ -34,15 +34,9 @@ Click the vertical elipsis located at the top right of the survey form.
 
 ![Vertical Elipsis](images/vertical-elipsis.png "Vertical Elipsis")
 
-<p align="center">
-  <img src="images/gray-arrow.svg">
-</p>
 
 ![Select Response Destination](images/select-response-destination.png "Select Response Destination")
 
-<p align="center">
-  <img src="images/gray-arrow.svg">
-</p>
 
 ### Lorem Ipsum
 
@@ -52,9 +46,6 @@ Ut faucibus blandit fermentum. Nulla vel mattis odio, ut interdum leo. Fusce nis
 
 ![Placeholder](images/download.png "Placeholder")
 
-<p align="center">
-  <img src="images/gray-arrow.svg">
-</p>
 
 
 ### Lorem Ipsum

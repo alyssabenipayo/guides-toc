@@ -1,105 +1,116 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    max-width: 600px;
-    margin: 0 auto;
-    background: rgb(255, 255, 255);
-    color:black;
-  }
-  
-  /* Top Navigation */
-  .link {
-    padding: 5px 10px;
-    background: #333;
-    color: #eee;
-    text-decoration: none;
-  }
-  
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 639px;
+  margin: 0 auto;
+  background: #f7f5f5;
+  color:black;
+}
 
-  /*Makes the sticky navigation stick */
-  .stick-it {
-    position: fixed;
-    top:67px;
-    z-index: 1;
-    right: 125px;
-  }
-  
-  .sticky-nav {
-    grid-area: nav;
-    background: #fff;
-    border: 0px solid rgba(51, 51, 51, 0.06);
-    border-radius: 16px;
-    box-shadow: 0 0 8px 0 rgba(51, 51, 51, 0.2);
-    overflow: hidden;
-    width: 275px;
-    padding: 35px 40px 15px 26px;
-    margin-top: 12px;
-    right: 60px;
-    position: fixed;
-  }
-  
-  /* This adjustment is so that the page scrolls to the correct place when you hit the nav links */
-  .anchor { 
-    display: block;
-    position: relative;
-    top: -60px;
-    visibility: hidden;
-  }
-  
-  
-  /* Style the sticky nav links */
-  .sticky-nav li {
-    list-style-type: none;
-    position: relative;
-    margin-bottom: 15px;
-  }
-  
-  /*  Make the active link different */
-  .is-active {
-    font-weight: 700;
-    color: #333 !important;
-  }
-  .is-active a {
-    font-weight: 700;
-  }
-  .is-active a:link, .is-active a:visited, .is-active a:hover, .is-active a:active, .is-active a:focus {
-    color: black;
-  }
-  .is-active::before {
-    position: absolute;
-    content: "\25C0";
-    font-size: 10px;
-    margin-left: -35px;
-    margin-top: 5px;
-  }
-  
-  /* .section-container {
-    background: #fff;
-    box-shadow: 0px 4px 8px rgb(51 51 51 / 20%);
-    border-radius: 10px;
-    margin: 2% 12%;
-    padding: 5% 12.5%;
-    text-align: center;
-  } */
+img {
+  max-width: 500px;
+}
 
-  
-  /* Hack for LA Banner */
-  .page-hero {
-    max-width: 600px;
-    margin: 0 auto;
-  }
-  
+/* Top Navigation */
+.link {
+  padding: 5px 10px;
+  background: #333;
+  color: #eee;
+  text-decoration: none;
+}
+
+
+/*Makes the sticky navigation stick */
+.stick-it {
+  position: fixed;
+  top:67px;
+  z-index: 1;
+  right: 125px;
+}
+
+.sticky-nav {
+  grid-area: nav;
+  background: #fff;
+  border: 0px solid rgba(51, 51, 51, 0.06);
+  border-radius: 16px;
+  box-shadow: 0 0 8px 0 rgba(51, 51, 51, 0.2);
+  overflow: hidden;
+  width: 275px;
+  padding: 35px 30px 15px 18px;
+  margin-top: 12px;
+  right: 60px;
+  position: fixed;
+}
+
+/* This adjustment is so that the page scrolls to the correct place when you hit the nav links */
+.anchor { 
+  display: block;
+  position: relative;
+  top: -60px;
+  visibility: hidden;
+}
+
+
+/* Style the sticky nav links */
+.sticky-nav li {
+  list-style-type: none;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+/*  Make the active link different */
+.is-active {
+  font-weight: 700;
+  color: #333 !important;
+}
+.is-active a {
+  font-weight: 700;
+}
+.is-active a:link, .is-active a:visited, .is-active a:hover, .is-active a:active, .is-active a:focus {
+  color: black;
+}
+.is-active::before {
+  position: absolute;
+  content: "\25C0";
+  font-size: 10px;
+  margin-left: -35px;
+  margin-top: 5px;
+}
+
+.page-card {
+  display: flex;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 0 8px 0 rgb(51 51 51 / 20%);
+  overflow: hidden;
+  max-width: 896px;
+  padding: 22px;
+  height: fit-content;
+  width: 500px;
+  margin: 10px;
+  flex-wrap: wrap;
+}
+
+/* Hack for LA Banner */
+.page-hero {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
 /* ==========================================================*/
 
-  /* For mobile phones - hides navbar */
-/* @media screen and (min-width: 650px) {
-  .sticky-nav {
-      display: none;
-   }
+/* For mobile phones - hides navbar */
+
+@media only screen and (max-width : 1024px) {
+.sticky-nav {
+    display: none;
+ }
+
+/* .page-card {
+  margin: 12px 12px 40px;
+  max-width: 896px;
+  padding: 60px;
+  grid-gap: 23px;
 } */
 
-@media only screen and (max-width : 667px) {
-  .sticky-nav {
-      display: none;
-   }
 
-  }
+}
