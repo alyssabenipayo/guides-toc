@@ -20,7 +20,9 @@ Each of Hack for LA’s GitHub project repositories (repos) use [issues](https:/
 
 When creating a new GitHub issue, the following tips will help you provide consistent formatting, a clear and concise overview, actionable tasks, explanatory resources, and resumé items to add value for all volunteers.
 
-*All GitHub Issues use markdown for formatting. View GitHub’s [Mastering Markdown](https://guides.github.com/features/mastering-markdown/) for a simple guide.*
+*All GitHub Issues use markdown for formatting.*
+
+*View GitHub’s [Mastering Markdown](https://guides.github.com/features/mastering-markdown/) for a simple guide.*
 
 
 ## Example of a Good End-to-End Issue
@@ -41,9 +43,6 @@ Follow the recommendations below to create a useful end-to-end GitHub issue
 *You can either format with markdown text manually or using the text box toolbar*
 
 
-<p align="center">
-  <img src="images/gray-arrow.svg">
-</p>
 
 ### New Subheading Here
 
@@ -55,9 +54,6 @@ For an issue taking on only part of the workflow, be more declarative in what it
 
 ![Placeholder](images/download.png "Placeholder")
 
-<p align="center">
-  <img src="images/gray-arrow.svg">
-</p>
 
 ### Lorem Ipsum
 

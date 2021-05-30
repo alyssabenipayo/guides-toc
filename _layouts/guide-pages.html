@@ -6,7 +6,6 @@ layout: default
   
     <a class=anchor></a>
       <nav id="sticky-nav" class="sticky-nav">
-          <!-- <header>Navigation</header> -->
           <ul>
             {% for section in page.sections %}
             <li><a href="{{ section.href }}"> {{ section.title }} </a><br>
@@ -21,12 +20,17 @@ layout: default
             {% endfor %}
           </ul> 
         </nav>
+        {% endif %}
     </body>
-{% endif %}
+
+
 
 
   <!-- Include javaScript -->
   <script src="{{ '/assets/js/guidepages.js' | absolute_url }}"></script>
-{{content}}
+  <div class=page-card>
+    {{content}}
+    </div>
+
 
 
