@@ -21,17 +21,22 @@ layout: default
           </ul> 
         </nav>
         {% endif %}
-        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-    </body>
 
+        <!-- Return to Top -->
+        <div class="top-scroll">
+        <button onclick="topFunction()" id="return-to-top" class="icon-chevron-up"></button>
+      </div>
 
-
+        <!-- ICON NEEDS FONT AWESOME FOR CHEVRON UP ICON -->
+<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 
   <!-- Include javaScript -->
   <script src="{{ '/assets/js/guidepages.js' | absolute_url }}"></script>
+  
   <div class=page-card>
     {{content}}
     </div>
 
 
+  </body>
 

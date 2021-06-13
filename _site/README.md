@@ -4,7 +4,7 @@ Working Prototype for Hack for LA Website's guide pages.
 
 Prototype GH Issue Status: In Progress.
 Next Objectives:
-- Need to resolve bug.
+- Designing wireframes via Figma.
 
 [Site Preview](https://alyssabenipayo.github.io/guidepages-prototype/)
 
