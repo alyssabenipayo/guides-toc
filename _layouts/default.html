@@ -2,7 +2,15 @@
 <html lang="en">
 
 {% include head.html %}
-
+{% if page.layout == 'guide-pages' %}
+<div class="hero-container-guide">
+  <img class="hero-img" src="images/guide-page-hero.svg">
+    <div class="hero-text">
+      <h3>Guide</h3>
+      <h1>{{ page.title | markdownify }}</h1>
+    </div>
+    {% endif %}
+  </div>
 <body>
 {% include header.html %}
 

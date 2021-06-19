@@ -14,8 +14,6 @@ sections:
           href: "#lorem-ipsum"
 ---
 
-# Building a Survey Reporting Dashboard
-
 Google Analytics includes a number of tools that allow individuals and teams to capture and analyze different types of data. These tools are especially valuable when it comes to survey-based user research.
 
 This guide will walk through the integration of Google Forms, Google Sheets, and Google Data Studio in order to visualize a set of user survey data.
