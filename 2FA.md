@@ -1,10 +1,8 @@
 ---
 layout: guide-pages
-title: Hack for LA Guide Page
+title: 2FA Guide
 provider-link: '/2FA'    
 ---
-
-# 2FA Guide
 
 Hack for LA requires two-factor authentication (2FA) in GitHub for all project contributors.
 

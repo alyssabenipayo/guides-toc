@@ -1,13 +1,46 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
-  max-width: 639px;
-  margin: 0 auto;
+  padding: 22px;
   background: #f7f5f5;
   color:black;
 }
 
-img {
-  max-width: 500px;
+.hero-image {
+  background-image: url("guide-page-hero.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.hero-container-guide {
+  background-size: cover !important;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-top: 29px;
+  max-width: 100%;
+}
+
+.hero-container-guide img {
+  max-width: 100%;
+}
+
+.hero-text h3 {
+  position: absolute;
+  color: #ffff;
+  text-decoration: underline;
+  text-decoration-color: #FA114F;
+  top: 40px;
+  left: 140px;
+}
+
+.hero-text {
+  position: absolute;
+  color: #ffff;
+  inline-size: 320px;
+  text-align: center;
 }
 
 
@@ -91,6 +124,11 @@ img {
   flex-wrap: wrap;
 }
 
+/* images in page card */
+img {
+  max-width: 500px;
+}
+
 /* Scroll to Top */
 #return-to-top {
   display: none; /* Hidden by default */
@@ -121,7 +159,7 @@ img {
 
 /* Hides scroll to top button on screens that are 600px or larger */
 
- @media screen and (min-width: 600px) {
+ @media screen and (min-width: 768px) {
   .top-scroll {
       visibility: hidden;
   }
@@ -130,5 +168,14 @@ img {
   .page-links {
     display: none;
   }
+
+  .hero-container-guide img {
+    min-width: 50%;
+  }
+
+  .hero-container-guide h1 {
+    display: none;
+  }
+
 
 }
