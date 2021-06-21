@@ -5,17 +5,20 @@ body {
   color:black;
 }
 
-.hero-image {
-  background-image: url("guide-page-hero.svg");
+/* .hero-image{
+  background-image: url("./images/guide-page-hero.svg");
+  background-color: #cccccc;
+  height: 500px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
+  position: relative;
+}  */
+
 
 
 .hero-container-guide {
   background-size: cover !important;
-  background-color: #fff;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -23,24 +26,28 @@ body {
   max-width: 100%;
 }
 
-.hero-container-guide img {
+.hero-img {
   max-width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .hero-text h3 {
   position: absolute;
-  color: #ffff;
+  color: #000;
   text-decoration: underline;
   text-decoration-color: #FA114F;
-  top: 40px;
-  left: 140px;
+  top: 60px;
+  left: 250px;
 }
 
 .hero-text {
   position: absolute;
-  color: #ffff;
+  color: #000;
   inline-size: 320px;
   text-align: center;
+  padding: 120px 20px 20px 120px;
 }
 
 
@@ -155,6 +162,10 @@ img {
 .sticky-nav {
     display: none;
  }
+
+.hero-container-guide h1 {
+  display: none;
+}
 }
 
 /* Hides scroll to top button on screens that are 600px or larger */
@@ -166,14 +177,6 @@ img {
 
   /* Hides page links on screens that are 600px or larger */
   .page-links {
-    display: none;
-  }
-
-  .hero-container-guide img {
-    min-width: 50%;
-  }
-
-  .hero-container-guide h1 {
     display: none;
   }
 
