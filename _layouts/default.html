@@ -4,8 +4,9 @@
 {% include head.html %}
 {% if page.layout == 'guide-pages' %}
 <div class="hero-container-guide">
-  <!-- <div class="hero-image"></div> -->
-  <img class="hero-img" src="images/guide-page-hero.svg">
+  <div class="hero-image">
+  <img src="images/guide-page-hero.svg">
+</div>
     <div class="hero-text">
       <h3>Guide</h3>
       <h1>{{ page.title | markdownify | remove: '<p>' | remove: '</p>' }}</h1>
