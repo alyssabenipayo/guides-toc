@@ -50,21 +50,21 @@ transform: skew(333deg);
 }
 
 .hero-text h3 {
-  position: absolute;
-  color: #fff;
+  /* position: absolute; */
+  /* color: #fff; */
   text-decoration: underline;
   text-decoration-color: #FA114F;
-  top: 60px;
-  left: 250px;
+  /* top: 60px;
+  left: 250px; */
 }
 
-.hero-text {
+/* .hero-text {
   position: absolute;
   color: #fff;
   inline-size: 320px;
   text-align: center;
   padding: 120px 20px 20px 120px;
-}
+} */
 
 
 /* Top Navigation */
