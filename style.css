@@ -5,66 +5,45 @@ body {
   color:black;
 }
 
-/* .hero-image{
-  background-image: url("./images/guide-page-hero.svg");
-  background-color: #cccccc;
-  height: 500px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}  */
-
-
 
 .hero-container-guide {
-  background-size: cover !important;
-  display: flex;
-  flex-direction: column;
+  margin-top: 30px;
   position: relative;
-  margin-top: 29px;
+}
+
+.page-hero {
   max-width: 100%;
+  max-height: 100%;
 }
 
-.hero-image {
-    position:relative;
-    overflow:hidden;
-}
-
-.hero-image::after {
-content: "";
-display: block;
+.page-parallelogram {
+overflow: hidden;
 position: absolute;
-bottom: 0;
 left: -10%;
 background-color: #030D2D;
-width: 25%;
+width: 50%;
 height: 100%;
 transform: skew(333deg);
 }
 
-.hero-image img {
-  width: 100%;
-  display:block;
-  position:relative;
+/* Makes Hero Heading and Title appear on top of the parallelogram */
+.hero-left, .page-parallelogram{
+  position: absolute;
+  top: 0;
 }
 
-.hero-text h3 {
-  /* position: absolute; */
-  /* color: #fff; */
+
+.hero-heading {
   text-decoration: underline;
   text-decoration-color: #FA114F;
-  /* top: 60px;
-  left: 250px; */
 }
 
-/* .hero-text {
-  position: absolute;
+.hero-left {
   color: #fff;
   inline-size: 320px;
   text-align: center;
   padding: 120px 20px 20px 120px;
-} */
+}
 
 
 /* Top Navigation */
@@ -85,17 +64,16 @@ transform: skew(333deg);
 }
 
 .sticky-nav {
-  grid-area: nav;
   background: #fff;
   border: 0px solid rgba(51, 51, 51, 0.06);
   border-radius: 16px;
   box-shadow: 0 0 8px 0 rgba(51, 51, 51, 0.2);
-  overflow: hidden;
   width: 275px;
-  padding: 35px 30px 15px 18px;
-  margin-top: 12px;
-  right: 60px;
   position: fixed;
+  z-index: 0;
+  right: 60px;
+  overflow-x: hidden;
+  padding: 30px;
 }
 
 /* This adjustment is so that the page scrolls to the correct place when you hit the nav links */
@@ -134,18 +112,23 @@ transform: skew(333deg);
 }
 
 .page-card {
-  display: flex;
   background: #fff;
   border-radius: 16px;
   box-shadow: 0 0 8px 0 rgb(51 51 51 / 20%);
   overflow: hidden;
   max-width: 896px;
-  padding: 22px;
-  height: fit-content;
-  width: 500px;
-  margin: 10px;
-  flex-wrap: wrap;
+  padding: 60px;
+  margin-left: 60px;
 }
+
+.page-container {
+  grid-template-columns: 996px auto;
+  grid-template-rows: auto;
+  grid-gap: 75px;
+  grid-template-areas: "content nav";
+  margin-top: 30px;
+}
+
 
 /* images in page card */
 img {
@@ -179,22 +162,62 @@ img {
     display: none;
  }
 
+ /* Hides Guide Title in Mobile */
 .hero-container-guide h1 {
   display: none;
 }
+
+.hero-left, .page-parallelogram{
+  position: absolute;
+  top: 0;
+}
+
+.page-parallelogram {
+  overflow: hidden;
+  position: absolute;
+  left: -15%;
+  background-color: #030D2D;
+  width: 55%;
+  height: 100%;
+  transform: skew(333deg);
+  }
+
+.hero-left {
+  color: #fff;
+  padding: 20px 20px 20px 20px;
+  font-size: 40px;
+  margin-left: -70px;
+  margin-top: -8px;
+}
+
+.page-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 0 8px 0 rgb(51 51 51 / 20%);
+  overflow: hidden;
+  max-width: 896px;
+  padding: 60px;
+  margin-left: 5px;
+}
+
 }
 
 /* Hides scroll to top button on screens that are 600px or larger */
 
  @media screen and (min-width: 768px) {
+  .guide-title {
+    visibility: hidden;
+    display: none;
+  }
+
   .top-scroll {
       visibility: hidden;
   }
 
   /* Hides page links on screens that are 600px or larger */
-  .page-links {
+  /* .page-links {
     display: none;
-  }
+  } */
 
 
 }
