@@ -12,6 +12,7 @@ sections:
           href: "#lorem-ipsum"
         - title: "Lorem Ipsum"
           href: "#lorem-ipsum"
+overview: "Google Analytics includes a number of tools that allow individuals and teams to capture and analyze different types of data. These tools are especially valuable when it comes to survey-based user research."
 ---
 
 Google Analytics includes a number of tools that allow individuals and teams to capture and analyze different types of data. These tools are especially valuable when it comes to survey-based user research.
@@ -20,17 +21,15 @@ This guide will walk through the integration of Google Forms, Google Sheets, and
 
 The example described includes connecting a Google Form to Google Sheets, cleaning a set of data within a Worksheet, and finally, building a data report in Google Data Studio.
 
-<div class="page-links" markdown="1">
 
 
-**In This Guide**
+## In This Guide
 
-- [Test 1](https://guides.github.com/features/mastering-markdown/)
-- [Test 2](https://guides.github.com/features/mastering-markdown/)
-- [Test 3](https://guides.github.com/features/mastering-markdown/)
-- [Test 4](https://guides.github.com/features/mastering-markdown/)
+* [Test 1](https://guides.github.com/features/mastering-markdown/)
+* [Test 2](https://guides.github.com/features/mastering-markdown/)
+* [Test 3](https://guides.github.com/features/mastering-markdown/)
+* [Test 4](https://guides.github.com/features/mastering-markdown/)
 
-</div>
 
 ## Link Google Form to Google Sheets
 

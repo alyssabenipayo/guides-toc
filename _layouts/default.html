@@ -4,14 +4,13 @@
 {% include head.html %}
 {% if page.layout == 'guide-pages' %}
 <div class="hero-container-guide">
-  <div class="hero-image">
-  <img src="images/guide-page-hero.svg">
-</div>
-    <div class="hero-text">
-      <h3>Guide</h3>
-      <h1>{{ page.title | markdownify | remove: '<p>' | remove: '</p>' }}</h1>
-    </div>
+  <div class="page-parallelogram"></div>
+  <img class="page-hero" src="images/guide-page-hero.svg">
+  <div class="hero-left">
+      <h3 class="hero-heading">Guide</h3>
+      <h1 class="hero-title">{{ page.title | markdownify | remove: '<p>' | remove: '</p>' }}</h1>
     {% endif %}
+  </div>
   </div>
 <body>
 {% include header.html %}

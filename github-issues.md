@@ -10,11 +10,7 @@ sections:
       subsection: 
         - title: "Lorem Ipsum"
           href: "#lorem-ipsum"
-overview: "Each of Hack for LA’s GitHub project repositories (repos) use [issues](https://guides.github.com/features/issues/) to track and organize ideas, enhancements, and tasks. All team members will use GitHub issues to communicate in our multifunctional teams.
-
-When creating a new GitHub issue, the following tips will help you provide consistent formatting, a clear and concise overview, actionable tasks, explanatory resources, and resumé items to add value for all volunteers.
-
-*All GitHub Issues use markdown for formatting. View GitHub’s [Mastering Markdown](https://guides.github.com/features/mastering-markdown/) for a simple guide.*"
+overview: "Each of Hack for LA’s GitHub project repositories (repos) use issues to track and organize ideas, enhancements, and tasks. All team members will use GitHub issues to communicate in our multifunctional teams."
 ---
 
 Each of Hack for LA’s GitHub project repositories (repos) use [issues](https://guides.github.com/features/issues/) to track and organize ideas, enhancements, and tasks. All team members will use GitHub issues to communicate in our multifunctional teams.
@@ -24,18 +20,18 @@ When creating a new GitHub issue, the following tips will help you provide consi
 *All GitHub Issues use markdown for formatting. View GitHub’s [Mastering Markdown](https://guides.github.com/features/mastering-markdown/) for a simple guide.*
 
 
+<!-- 
+<div class="page-links" markdown="1"> -->
 
-<div class="page-links" markdown="1">
 
+## In This Guide
 
-**In This Guide**
+* [Example of a Good End-to-End Issue](https://guides.github.com/features/mastering-markdown/)
+* [Issue Sections: Descriptions and Tips](https://guides.github.com/features/mastering-markdown/)
+* [Issue Template](https://guides.github.com/features/mastering-markdown/)
+* [Member Analytics](https://guides.github.com/features/mastering-markdown/)
 
-- [Example of a Good End-to-End Issue](https://guides.github.com/features/mastering-markdown/)
-- [Issue Sections: Descriptions and Tips](https://guides.github.com/features/mastering-markdown/)
-- [Issue Template](https://guides.github.com/features/mastering-markdown/)
-- [Member Analytics](https://guides.github.com/features/mastering-markdown/)
-
-</div>
+<!-- </div> -->
 
 ## Example of a Good End-to-End Issue
 
