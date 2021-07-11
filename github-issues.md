@@ -20,10 +20,6 @@ When creating a new GitHub issue, the following tips will help you provide consi
 *All GitHub Issues use markdown for formatting. View GitHub’s [Mastering Markdown](https://guides.github.com/features/mastering-markdown/) for a simple guide.*
 
 
-<!-- 
-<div class="page-links" markdown="1"> -->
-
-
 ## In This Guide
 
 * [Example of a Good End-to-End Issue](https://guides.github.com/features/mastering-markdown/)
@@ -31,7 +27,6 @@ When creating a new GitHub issue, the following tips will help you provide consi
 * [Issue Template](https://guides.github.com/features/mastering-markdown/)
 * [Member Analytics](https://guides.github.com/features/mastering-markdown/)
 
-<!-- </div> -->
 
 ## Example of a Good End-to-End Issue
 
