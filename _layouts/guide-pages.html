@@ -6,7 +6,7 @@ layout: default
 <div class="page-container">
 {% if page.sections %}
     <a class=anchor></a>
-      <nav id="sticky-nav" class="sticky-nav">
+      <div id="sticky-nav" class="sticky-nav">
           <ul>
             {% for section in page.sections %}
             <li><a href="{{ section.href }}"> {{ section.title }} </a><br>
@@ -20,7 +20,7 @@ layout: default
               </li>
             {% endfor %}
           </ul> 
-        </nav>
+        </div>
         {% endif %}
 
         <!-- Return to Top -->
