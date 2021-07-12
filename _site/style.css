@@ -72,7 +72,7 @@ img.page-hero {
   position: -webkit-sticky;
   position: sticky;
   top: 0px;
-  right: 16%;
+  right: 14%;
   float: right;
   border: 0px solid rgba(51, 51, 51, 0.06);
   box-shadow: 0 0 8px 0 rgb(51 51 51 / 20%);
@@ -137,6 +137,7 @@ img.page-hero {
   grid-gap: 75px;
   grid-template-areas: "content nav";
   margin-top: 30px;
+  margin: 0px 60px;
 }
 
 
