@@ -1,12 +1,13 @@
 ---
 layout: default
 ---
+{% if page.sections %}
 <body>
 
 <div class="page-container">
-{% if page.sections %}
+
     <a class=anchor></a>
-      <div id="sticky-nav" class="sticky-nav">
+      <nav id="sticky-nav" class="sticky-nav">
           <ul>
             {% for section in page.sections %}
             <li><a href="{{ section.href }}"> {{ section.title }} </a><br>
@@ -19,27 +20,24 @@ layout: default
                 {% endif %}
               </li>
             {% endfor %}
-          </ul> 
-        </div>
+          </ul>
         {% endif %}
-
-        <!-- Return to Top -->
-        <div class="top-scroll">
-        <button onclick="topFunction()" id="return-to-top" class="icon-chevron-up"></button>
-      </div>
-
-        <!-- ICON NEEDS FONT AWESOME FOR CHEVRON UP ICON -->
-        <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
-        
-        <!-- Include javaScript -->
-        <script src="{{ '/assets/js/guidepages.js' | absolute_url }}"></script>
-  
+      </nav> 
     <div class="page-card">
       <h2 class="guide-title">{{ page.title }}</h2>
       {{content}}
     </div>
   </div>
 
+<!-- Return to Top -->
+<div class="top-scroll">
+  <button onclick="topFunction()" id="return-to-top" class="icon-chevron-up"></button>
+</div>  
 
   </body>
 
+  <!-- ICON NEEDS FONT AWESOME FOR CHEVRON UP ICON FOR RETURN TO TOP BUTTON -->
+  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+  
+  <!-- Include javaScript -->
+  <script src="{{ '/assets/js/guidepages.js' | absolute_url }}"></script>  

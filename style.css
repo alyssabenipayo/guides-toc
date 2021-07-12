@@ -5,44 +5,47 @@ body {
   color:black;
 }
 
-
 .hero-container-guide {
   margin-top: 30px;
   position: relative;
+  display: inline-block;
 }
 
-.page-hero {
+img.page-hero {
+  display: block;
   max-width: 100%;
   max-height: 100%;
 }
 
 .page-parallelogram {
-overflow: hidden;
-position: absolute;
-left: -12%;
-background-color: #030D2D;
-width: 53.5%;
-height: 99%;
-transform: skew(333deg);
-}
+  overflow: hidden;
+  position: absolute;
+  left: -16%;
+  background-color: #030D2D;
+  width: 53.5%;
+  height: 100%;
+  transform: skew(333deg);
+  }
 
-/* Makes Hero Heading and Title appear on top of the parallelogram */
+  /* Makes Hero Heading and Title appear on top of the parallelogram */
 .hero-left, .page-parallelogram{
   position: absolute;
   top: 0;
 }
-
 
 .hero-heading {
   text-decoration: underline;
   text-decoration-color: #FA114F;
 }
 
-.hero-left {
-  color: #fff;
+.hero-left{
+  top: 50%;
+  left: 16%;
   inline-size: 320px;
+  transform: translate( -50%, -50% ); /*keeps texts in one place */
   text-align: center;
-  padding: 8% 0% 0% 8%;
+  color: #fff;
+  font-weight: bold;
 }
 
 
@@ -63,18 +66,25 @@ transform: skew(333deg);
   right: 125px;
 }
 
-.sticky-nav {
-  background: #fff;
+.sticky-nav{
+  height: 180px;
+  width: 240px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  right: 16%;
+  float: right;
   border: 0px solid rgba(51, 51, 51, 0.06);
+  box-shadow: 0 0 8px 0 rgb(51 51 51 / 20%);
   border-radius: 16px;
-  box-shadow: 0 0 8px 0 rgba(51, 51, 51, 0.2);
-  width: 275px;
-  position: fixed;
-  z-index: 0;
-  right: 60px;
-  overflow-x: hidden;
-  padding: 30px;
+  padding: 40px;
+  background-color: #fff;
 }
+
+.sticky-nav li {
+  font-size: 16px;
+  display: block;
+  }
 
 /* This adjustment is so that the page scrolls to the correct place when you hit the nav links */
 .anchor { 
@@ -118,7 +128,7 @@ transform: skew(333deg);
   overflow: hidden;
   max-width: 896px;
   padding: 60px;
-  margin-left: 60px;
+  margin: 12px 12px 40px;
 }
 
 .page-container {
@@ -158,30 +168,27 @@ img {
 
 /* ==========================================================*/
 
-@media only screen and (max-width: 1024px)
+ @media only screen and (max-width: 1024px)
 {
-
-  .page-parallelogram {
-    overflow: hidden;
+  .hero-left {
     position: absolute;
-    left: -50%;
-    background-color: #030D2D;
-    width: 91.5%;
-    height: 98.3%;
-    transform: skew(333deg);
+    top: 53%;
+    left: 17%;
+    inline-size: 248px;
+    font-size: 70%;
+    transform: translate( -54%, -50% );
     }
-  
-   .hero-left {
-    color: #fff;
-    inline-size: 254px;
-    height: 60%;
-    text-align: center;
-    font-size: 80%;
-    padding: 5% 0% 0% 1%;
-    }
-    
-
 }
+
+.page-parallelogram {
+  overflow: hidden;
+  position: absolute;
+  left: -28%;
+  background-color: #030D2D;
+  width: 65.5%;
+  height: 100%;
+  transform: skew(333deg);
+  }
 
 
 /* ==========================================================*/
@@ -209,26 +216,9 @@ img {
   display: none;
 }
 
-.hero-left, .page-parallelogram{
-  position: absolute;
-  top: 0;
-}
-
-.page-parallelogram {
-  overflow: hidden;
-  position: absolute;
-  left: -50%;
-  background-color: #030D2D;
-  width: 91.5%;
-  height: 97.5%;
-  transform: skew(333deg);
-  }
-
 .hero-left {
-  color: #fff;
-  padding: 3% 0% 0% 0%;
-  font-size: 40px;
-  margin: 0%;
+  position: absolute;
+  font-size: 200%;
 }
 
 .page-card {
@@ -243,7 +233,28 @@ img {
 
 }
 
-/* Hides scroll to top button on screens that are 600px or larger */
+
+/* ==========================================================*/
+
+/* Media Query for Mobile devices (320px — 480px) */
+
+/* ==========================================================*/
+
+/* For mobile phones - hides navbar */
+
+@media only screen and (max-width: 480px)
+{
+
+.hero-left {
+  position: absolute;
+  top: 50%;
+  left: 16%;
+  font-size: 160%;
+}
+
+}
+
+/* Hides scroll to top button on screens that are 768px or larger */
 
  @media screen and (min-width: 768px) {
 

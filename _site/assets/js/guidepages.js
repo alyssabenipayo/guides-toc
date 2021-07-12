@@ -5,32 +5,23 @@
 //locate all the navigation links and arrows
 let navLinks = document.querySelectorAll('.sticky-nav a');
 navLinks [0].classList.add('is-active');
-
 for (let i = 0; i < navLinks.length; i++) {
-
     navLinks[i].addEventListener('click', function (event) {
-
         // Disable scroll handler when click on navigation link if using smooth scroll
         document.removeEventListener('scroll', scrollHandler, true);
-
         //check if a link is currently selected, remove is-active class if yes
         isActive = document.getElementsByClassName('is-active')[0];
-
         if (isActive != undefined) {
             isActive.classList.remove('is-active');
         }
-
         //then add is-active class to the most recent selected link
         this.classList.add('is-active');
-
         //re-enable scroll event 1 second after is-active class is added
         setTimeout(function () {
             document.addEventListener("scroll", scrollHandler, true);
         }, 1000);
-
     });
 }
-
 
 /***************************************************/
 /**** Script 2: Highlight links when scrolling *****/
@@ -40,22 +31,14 @@ for (let i = 0; i < navLinks.length; i++) {
 //locate all the navigation links
 let quickLinks = document.querySelectorAll('.sticky-nav a');
 let qlArray = [];
-
-
 for (let i = 0; i < quickLinks.length; i++) {
-
     // Create an array of ids
     qlArray.push(quickLinks[i].href.substring(quickLinks[i].href.indexOf('#') + 1));
 }
-
-
-
 document.addEventListener('scroll', scrollHandler, true);
-
 // alignment of page card with its corresponding link on the sticky navigation 
 function scrollHandler() {
     const vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0)
-
     currentActive = document.getElementsByClassName('is-active')[0];
     for (let i = 0; i < qlArray.length - 1; i++) {
         const top = document.getElementById(qlArray[i]).getBoundingClientRect().top
@@ -74,6 +57,7 @@ function scrollHandler() {
     quickLinks[qlArray.length - 1].classList.add('is-active');
 
 };
+
 
 /***************************************************/
 /**** Script 3: Scroll to the Top (Mobile) *****/
