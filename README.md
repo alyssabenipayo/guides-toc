@@ -1,8 +1,6 @@
-# Guide Pages Prototype
+# Hack for LA Website's Guide Pages Prototype
 
-Working Prototype for Hack for LA Website's guide pages.
-
-Prototype GH Issue Status: In Progress.
+Prototype Status: In Progress.
 
 Current Objectives:
 - Working on prototype's responsiveness.
