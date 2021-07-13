@@ -5,28 +5,53 @@ layout: default
 <body>
 
 <div class="page-container">
-
-    <a class=anchor></a>
-      <nav id="sticky-nav" class="sticky-nav">
-          <ul>
-            {% for section in page.sections %}
-            <li><a href="{{ section.href }}"> {{ section.title }} </a><br>
-              {% if section.subsection[0] %}
-              <ul><br>
-                {% for subsection in section.subsection %}
-                <li><a href="{{ subsection.href }}">{{ subsection.title }}</a></li>
-                  {% endfor %}
-                  </ul>
-                {% endif %}
-              </li>
-            {% endfor %}
-          </ul>
-        {% endif %}
-      </nav> 
-    <div class="page-card">
+  <a class=anchor></a>
+  <nav id="sticky-nav" class="sticky-nav">
+      <ul>
+        {% for section in page.sections %}
+        <li><a href="{{ section.href }}"> {{ section.title }} </a><br>
+          {% if section.subsection[0] %}
+          <ul><br>
+            {% for subsection in section.subsection %}
+            <li><a href="{{ subsection.href }}">{{ subsection.title }}</a></li>
+              {% endfor %}
+              </ul>
+            {% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </nav> 
+  
+  <div class="page-card">
+      <!-- This page card contains the guide's overview and direct links -->
       <h2 class="guide-title">{{ page.title }}</h2>
-      {{content}}
-    </div>
+      {{ page.overview }}
+      
+      <div class="guide-links">
+        <h2>In This Guide</h2>
+        {% if page.sections %}
+        <ul>
+        {% for section in page.sections %}
+        <li><a href="{{ section.href }}"> {{ section.title }} </a><br>
+          {% if section.subsection[0] %}
+          <ul><br>
+            {% for subsection in section.subsection %}
+            <li><a href="{{ subsection.href }}">{{ subsection.title }}</a></li>
+              {% endfor %}
+              </ul>
+            {% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </div>
+</div>
+
+<div class="page-card">
+ <!-- This page card contains the guide's content -->
+  {{content}}
+</div>
   </div>
 
 <!-- Return to Top -->
