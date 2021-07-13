@@ -9,14 +9,12 @@ Next Objectives:
 - Create Full versions of Survey, 2FA, and Getting Started with GitHub.
 - Finalize documentation on Guide Page Markdown process.
 
-
-[Site Preview](https://alyssabenipayo.github.io/guidepages-prototype/)
-
 More details can also be found in the following issues:
 - [Research Formatted Guide Pages Parse with Markdown](https://github.com/hackforla/website/issues/1085)
 - [Design HfLA Guide Pages](https://github.com/hackforla/website/issues/1525)
 - [Create mobile version of the Guide Pages](https://github.com/hackforla/website/issues/1515)
 
+[Site Preview](https://alyssabenipayo.github.io/guidepages-prototype/)
 
 # Quick Preview
 
