@@ -1,6 +1,6 @@
 # Hack for LA Website's Guide Pages Prototype
 
-Prototype Status: In Progress. [Site Preview](https://alyssabenipayo.github.io/guidepages-prototype/)
+Prototype Status: In Progress. [[Site Preview]](https://alyssabenipayo.github.io/guidepages-prototype/)
 
 Current Objectives:
 - Working on prototype's responsiveness.
