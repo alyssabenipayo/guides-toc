@@ -14,7 +14,11 @@ Next Objectives:
 
 [Site Preview](https://alyssabenipayo.github.io/guidepages-prototype/)
 
-More details can also be found in this [GH Issue](https://github.com/hackforla/website/issues/1085).
+More details can also be found in the following issues:
+- [Research Formatted Guide Pages Parse with Markdown](https://github.com/hackforla/website/issues/1085)
+- [Design HfLA Guide Pages](https://github.com/hackforla/website/issues/1525)
+- [Create mobile version of the Guide Pages](https://github.com/hackforla/website/issues/1515)
+
 
 # Quick Preview
 
