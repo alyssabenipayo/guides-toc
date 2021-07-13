@@ -67,12 +67,10 @@ img.page-hero {
 }
 
 .sticky-nav{
-    height: 180px;
     width: 220px;
     position: -webkit-sticky;
     position: sticky;
     top: 0px;
-    right: 8%;
     float: right;
     border: 0px solid rgba(51, 51, 51, 0.06);
     box-shadow: 0 0 8px 0 rgb(51 51 51 / 20%);
@@ -121,6 +119,7 @@ img.page-hero {
   margin-top: 5px;
 }
 
+
 .page-card {
   background: #fff;
   border-radius: 16px;
@@ -128,16 +127,15 @@ img.page-hero {
   overflow: hidden;
   max-width: 896px;
   padding: 60px;
-  margin: 12px 12px 40px;
+  margin-top: 30px;
 }
 
 .page-container {
-  grid-template-columns: 996px auto;
+  grid-template-columns: auto auto;
   grid-template-rows: auto;
   grid-gap: 75px;
   grid-template-areas: "content nav";
   margin-top: 30px;
-  margin: 0px 60px;
 }
 
 
@@ -232,8 +230,26 @@ img {
   margin-left: 5px;
 }
 
+
+
 }
 
+/* Hides scroll to top button on screens that are 768px or larger */
+
+@media screen and (min-width: 768px) {
+
+  .top-scroll {
+      visibility: hidden;
+  }
+
+  /* Hides "In This Guide" links */
+  .guide-links {
+    display: none;
+    visibility: hidden;
+  }
+
+
+}
 
 /* ==========================================================*/
 
@@ -255,18 +271,4 @@ img {
 
 }
 
-/* Hides scroll to top button on screens that are 768px or larger */
 
- @media screen and (min-width: 768px) {
-
-  .top-scroll {
-      visibility: hidden;
-  }
-
-  /* Hides page links on screens that are 600px or larger */
-  /* .page-links {
-    display: none;
-  } */
-
-
-}
