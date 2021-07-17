@@ -5,6 +5,24 @@ body {
   color:black;
 }
 
+.main-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  box-shadow: 0 0 8px 0 #000;
+  font-weight: bold;
+  padding: 20px;
+  padding-bottom: 10px;
+  z-index: 10;
+}
+
+
+/* .main-header-content {
+  display: flex;
+}  */
+
 .hero-container-guide {
   margin-top: 30px;
   position: relative;
@@ -13,14 +31,14 @@ body {
 
 img.page-hero {
   display: block;
-  max-width: 100%;
+  max-width: 104%;
   max-height: 100%;
 }
 
 .page-parallelogram {
   overflow: hidden;
   position: absolute;
-  left: -16%;
+  left: -14%;
   background-color: #030D2D;
   width: 53.5%;
   height: 100%;
@@ -77,6 +95,7 @@ img.page-hero {
     border-radius: 16px;
     padding: 25px;
     background-color: #fff;
+    margin-right: 50px;
 }
 
 .sticky-nav li {
@@ -128,6 +147,7 @@ img.page-hero {
   max-width: 896px;
   padding: 60px;
   margin-top: 30px;
+  margin-left: 50px;
 }
 
 .page-container {
@@ -182,7 +202,7 @@ img {
 .page-parallelogram {
   overflow: hidden;
   position: absolute;
-  left: -28%;
+  left: -26%;
   background-color: #030D2D;
   width: 65.5%;
   height: 100%;
@@ -200,6 +220,13 @@ img {
 
 @media only screen and (max-width: 768px)
 {
+
+  /* .main-header{
+    padding: 20px 10px 10px 10px;
+    padding-top: 20px;
+    position: fixed;
+ }
+   */
 
 .hero-title {
   visibility: hidden;
