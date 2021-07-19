@@ -26,8 +26,8 @@ layout: default
   <div class="page-card">
       <!-- This page card contains the guide's overview and direct links -->
       <h2 class="guide-title">{{ page.title }}</h2>
-      {{ page.overview }}
-      
+      {{ page.overview | markdownify }}
+
       <div class="guide-links">
         <h2>In This Guide</h2>
         {% if page.sections %}
@@ -66,3 +66,4 @@ layout: default
   
   <!-- Include javaScript -->
   <script src="{{ '/assets/js/guidepages.js' | absolute_url }}"></script>  
+  

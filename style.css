@@ -19,10 +19,6 @@ body {
 }
 
 
-/* .main-header-content {
-  display: flex;
-}  */
-
 .hero-container-guide {
   margin-top: 30px;
   position: relative;
@@ -96,6 +92,7 @@ img.page-hero {
     padding: 25px;
     background-color: #fff;
     margin-right: 50px;
+    margin-left: 20px;
 }
 
 .sticky-nav li {
@@ -189,6 +186,16 @@ img {
 
  @media only screen and (max-width: 1024px)
 {
+
+.page-card {
+    max-width: 493px;
+}
+
+.sticky-nav {
+  margin-right: 10px;
+}
+
+
   .hero-left {
     position: absolute;
     top: 53%;
@@ -221,12 +228,10 @@ img {
 @media only screen and (max-width: 768px)
 {
 
-  /* .main-header{
-    padding: 20px 10px 10px 10px;
-    padding-top: 20px;
-    position: fixed;
- }
-   */
+.page-card {
+    max-width: 493px;
+}
+
 
 .hero-title {
   visibility: hidden;
