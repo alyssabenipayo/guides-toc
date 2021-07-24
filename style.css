@@ -100,6 +100,11 @@ img.page-hero {
   display: block;
   }
 
+.sticky-nav a {
+  color:#FA114F;
+  text-decoration: none;
+  }
+
 /* This adjustment is so that the page scrolls to the correct place when you hit the nav links */
 .anchor { 
   display: block;
@@ -120,6 +125,7 @@ img.page-hero {
 .is-active {
   font-weight: 700;
   color: #030D2D !important;
+  text-decoration: none;
 }
 .is-active a {
   font-weight: 700;
@@ -133,19 +139,25 @@ img.page-hero {
   font-size: 10px;
   margin-left: -35px;
   margin-top: 5px;
+  text-decoration: none;
 }
 
 
-.page-card {
+.page-card-lg {
   background: #fff;
   border-radius: 16px;
   box-shadow: 0 0 8px 0 rgb(51 51 51 / 20%);
-  overflow: hidden;
   max-width: 896px;
-  padding: 60px;
   margin-top: 30px;
   margin-left: 50px;
+  padding: 60px;
+  overflow: hidden;
 }
+
+.page-card-lg a{
+  color: #FA114F;
+}
+
 
 .page-container {
   grid-template-columns: auto auto;
@@ -187,7 +199,7 @@ img {
  @media only screen and (max-width: 1024px)
 {
 
-.page-card {
+.page-card-lg {
     max-width: 493px;
 }
 
@@ -228,7 +240,7 @@ img {
 @media only screen and (max-width: 768px)
 {
 
-.page-card {
+.page-card-lg {
     max-width: 493px;
 }
 
@@ -252,7 +264,7 @@ img {
   font-size: 200%;
 }
 
-.page-card {
+.page-card-lg {
   background: #fff;
   border-radius: 16px;
   box-shadow: 0 0 8px 0 rgb(51 51 51 / 20%);
