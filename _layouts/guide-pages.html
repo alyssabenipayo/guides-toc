@@ -2,27 +2,10 @@
 layout: default
 ---
 {% if page.sections %}
-<body>
 
-<div class="page-container">
-  <a class=anchor></a>
-  <nav id="sticky-nav" class="sticky-nav">
-      <ul>
-        {% for section in page.sections %}
-        <li><a href="{{ section.href }}"> {{ section.title }} </a><br>
-          {% if section.subsection[0] %}
-          <ul><br>
-            {% for subsection in section.subsection %}
-            <li><a href="{{ subsection.href }}">{{ subsection.title }}</a></li>
-              {% endfor %}
-              </ul>
-            {% endif %}
-          </li>
-        {% endfor %}
-      </ul>
-    {% endif %}
-  </nav> 
-  
+
+<div class="page-content-container-grid">
+  <div class="sticky-nav-content-container">   
   <div class="page-card-lg">
       <!-- This page card contains the guide's overview and direct links -->
       <h2 class="guide-title">{{ page.title }}</h2>
@@ -48,18 +31,40 @@ layout: default
   </div>
 </div>
 
+
 <div class="page-card-lg">
  <!-- This page card contains the guide's content -->
   {{content}}
 </div>
-  </div>
+</div>
+
+<a class=anchor></a>
+<nav id="sticky-nav" class="sticky-nav">
+    <ul>
+      {% for section in page.sections %}
+      <li><a href="{{ section.href }}"> {{ section.title }} </a><br>
+        {% if section.subsection[0] %}
+        <ul><br>
+          {% for subsection in section.subsection %}
+          <li><a href="{{ subsection.href }}">{{ subsection.title }}</a></li>
+            {% endfor %}
+            </ul>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+</nav> 
+<div class="sticky-nav-spacer-div"></div>
+
+</div>
 
 <!-- Return to Top -->
 <div class="top-scroll">
   <button onclick="topFunction()" id="return-to-top" class="icon-chevron-up"></button>
 </div>  
 
-  </body>
+
 
   <!-- ICON NEEDS FONT AWESOME FOR CHEVRON UP ICON FOR RETURN TO TOP BUTTON -->
   <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">

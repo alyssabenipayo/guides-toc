@@ -71,6 +71,11 @@ img.page-hero {
   text-decoration: none;
 }
 
+.sticky-nav-spacer-div {
+  grid-area: "nav";
+  width: 250px;
+}
+
 
 /*Makes the sticky navigation stick */
 .stick-it {
@@ -159,13 +164,21 @@ img.page-hero {
 }
 
 
-.page-container {
-  grid-template-columns: auto auto;
+.page-content-container-grid {
+  grid-template-columns: 996px auto;
   grid-template-rows: auto;
   grid-gap: 75px;
-  grid-template-areas: "content nav";
-  margin-top: 30px;
+  grid-template-areas: 
+  "content nav";
+  margin-top: 30px
 }
+
+.sticky-nav-content-container{
+  margin-left: 100px;
+  grid-area: content;
+  justify-self: start;
+  margin-top: 20px;
+} 
 
 
 /* images in page card */
