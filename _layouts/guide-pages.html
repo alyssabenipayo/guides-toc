@@ -3,10 +3,10 @@ layout: default
 ---
 {% if page.sections %}
 
-
-<div class="page-content-container-grid">
+<body>
+<div class="page-content-container">
   <div class="sticky-nav-content-container">   
-  <div class="page-card-lg">
+    <div class="page-card-lg">
       <!-- This page card contains the guide's overview and direct links -->
       <h2 class="guide-title">{{ page.title }}</h2>
       {{ page.overview | markdownify }}
@@ -15,6 +15,31 @@ layout: default
         <h2>In This Guide</h2>
         {% if page.sections %}
         <ul>
+        {% for section in page.sections %}
+          <li><a href="{{ section.href }}"> {{ section.title }} </a><br>
+          {% if section.subsection[0] %}
+            <ul><br>
+            {% for subsection in section.subsection %}
+              <li><a href="{{ subsection.href }}">{{ subsection.title }}</a></li>
+              {% endfor %}
+            </ul>
+            {% endif %}
+          </li>
+        {% endfor %}
+        </ul>
+        {% endif %}
+      </div>
+    </div>
+    <div class="page-card-lg">
+    <!-- This page card contains the guide's content -->
+     {{content}}
+    </div>
+  </div>
+
+  <div class="sticky-nav-container">
+  <a class=anchor></a>
+  <nav id="sticky-nav" class="sticky-nav">
+      <ul>
         {% for section in page.sections %}
         <li><a href="{{ section.href }}"> {{ section.title }} </a><br>
           {% if section.subsection[0] %}
@@ -28,36 +53,11 @@ layout: default
         {% endfor %}
       </ul>
     {% endif %}
-  </div>
-</div>
-
-
-<div class="page-card-lg">
- <!-- This page card contains the guide's content -->
-  {{content}}
+  </nav> 
+  <div class="sticky-nav-spacer-div"></div>
 </div>
 </div>
-
-<a class=anchor></a>
-<nav id="sticky-nav" class="sticky-nav">
-    <ul>
-      {% for section in page.sections %}
-      <li><a href="{{ section.href }}"> {{ section.title }} </a><br>
-        {% if section.subsection[0] %}
-        <ul><br>
-          {% for subsection in section.subsection %}
-          <li><a href="{{ subsection.href }}">{{ subsection.title }}</a></li>
-            {% endfor %}
-            </ul>
-          {% endif %}
-        </li>
-      {% endfor %}
-    </ul>
-  {% endif %}
-</nav> 
-<div class="sticky-nav-spacer-div"></div>
-
-</div>
+</body>
 
 <!-- Return to Top -->
 <div class="top-scroll">

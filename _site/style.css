@@ -1,7 +1,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   padding: 22px;
-  background: #f7f5f5;
+  background: #fff;   /* testing purpose only */
   color:black;
 }
 
@@ -20,9 +20,10 @@ body {
 
 
 .hero-container-guide {
-  margin-top: 30px;
+  margin: 61px auto 0;
   position: relative;
-  display: inline-block;
+  display: flex;
+  align-items: center;
 }
 
 img.page-hero {
@@ -54,12 +55,13 @@ img.page-hero {
 
 .hero-left{
   top: 50%;
-  left: 16%;
+  left: 19%;
   inline-size: 320px;
   transform: translate( -50%, -50% ); /*keeps texts in one place */
   text-align: center;
   color: #fff;
   font-weight: bold;
+  font-size: 100%;
 }
 
 
@@ -72,7 +74,6 @@ img.page-hero {
 }
 
 .sticky-nav-spacer-div {
-  grid-area: "nav";
   width: 250px;
 }
 
@@ -96,8 +97,8 @@ img.page-hero {
     border-radius: 16px;
     padding: 25px;
     background-color: #fff;
-    margin-right: 50px;
     margin-left: 20px;
+    margin-right: 20px;
 }
 
 .sticky-nav li {
@@ -154,9 +155,12 @@ img.page-hero {
   box-shadow: 0 0 8px 0 rgb(51 51 51 / 20%);
   max-width: 896px;
   margin-top: 30px;
-  margin-left: 50px;
   padding: 60px;
   overflow: hidden;
+}
+
+.page-card-lg:first-child {
+  margin-top: 0;
 }
 
 .page-card-lg a{
@@ -164,20 +168,17 @@ img.page-hero {
 }
 
 
-.page-content-container-grid {
-  grid-template-columns: 996px auto;
-  grid-template-rows: auto;
-  grid-gap: 75px;
-  grid-template-areas: 
-  "content nav";
+.page-content-container {
+  display: flex;
   margin-top: 30px
 }
 
 .sticky-nav-content-container{
-  margin-left: 100px;
-  grid-area: content;
-  justify-self: start;
-  margin-top: 20px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 } 
 
 
@@ -209,38 +210,38 @@ img {
 
 /* ==========================================================*/
 
- @media only screen and (max-width: 1024px)
+@media only screen and (max-width: 1024px)
 {
 
 .page-card-lg {
-    max-width: 493px;
-}
-
-.sticky-nav {
-  margin-right: 10px;
-}
-
-
-  .hero-left {
-    position: absolute;
-    top: 53%;
-    left: 17%;
-    inline-size: 248px;
-    font-size: 70%;
-    transform: translate( -54%, -50% );
-    }
+    max-width: 518px;
 }
 
 .page-parallelogram {
   overflow: hidden;
   position: absolute;
-  left: -26%;
+  left: -42%;
   background-color: #030D2D;
-  width: 65.5%;
+  width: 82.5%;
   height: 100%;
   transform: skew(333deg);
   }
-
+  
+.hero-left {
+  position: absolute;
+  top: 52%;
+  left: 20%;
+  inline-size: 286px;
+  transform: translate( -54%, -50% );
+  font-size: 90%;
+  }
+  
+  img.page-hero {
+  display: block;
+  max-width: 108%;
+  max-height: 100%;
+}
+}
 
 /* ==========================================================*/
 
@@ -252,6 +253,11 @@ img {
 
 @media only screen and (max-width: 768px)
 {
+
+.sticky-nav-spacer-div {
+  width: 0;
+}
+
 
 .page-card-lg {
     max-width: 493px;
@@ -327,5 +333,23 @@ img {
 }
 
 }
+
+/* ==========================================================*/
+
+/* Media Query for Screens (min-width: 320px) */
+
+/* ==========================================================*/
+
+@media only screen and (min-width: 320px)
+{
+  .hero-container-guide {
+    flex-flow: row;
+  }
+
+  .page-parallelogram {
+    flex-flow: row;
+  }
+}
+
 
 
