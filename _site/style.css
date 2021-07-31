@@ -1,8 +1,15 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
-  padding: 22px;
-  background: #fff;   /* testing purpose only */
+  background: #fff;   /* testing purpose only - original #f7f5f5*/
   color:black;
+}
+
+/* Top Navigation */
+.link {
+  padding: 5px 10px;
+  background: #030D2D;
+  color: #eee;
+  text-decoration: none;
 }
 
 .main-header {
@@ -18,21 +25,42 @@ body {
   z-index: 10;
 }
 
+/* Prototype Begins Here */
+
+/* This page is built using a mobile first method.  Plain tags apply to mobile. Breakpoints below for larger sizes. */
 
 .hero-container-guide {
-  margin: 61px auto 0;
-  position: relative;
   display: flex;
-  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  position: relative;
+  padding: 25px 15px 20px 15px;    
 }
 
-img.page-hero {
-  display: block;
-  max-width: 104%;
-  max-height: 100%;
+.hero-heading {
+  text-decoration: underline;
+  text-decoration-color: #FA114F;
+  font-weight: 900;
+  margin-bottom: 30px;
 }
 
-.page-parallelogram {
+/* .hero-left{
+  font-size: 20px;
+  max-width: 500px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  top: 50%;
+  left: 19%;
+  inline-size: 320px;
+  transform: translate( -50%, -50% ); keeps texts in one place
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  font-size: 100%;
+} */
+
+/* .page-parallelogram {
   overflow: hidden;
   position: absolute;
   left: -14%;
@@ -40,90 +68,37 @@ img.page-hero {
   width: 53.5%;
   height: 100%;
   transform: skew(333deg);
-  }
+} */
 
-  /* Makes Hero Heading and Title appear on top of the parallelogram */
+/* Makes Hero Heading and Title appear on top of the parallelogram */
 .hero-left, .page-parallelogram{
   position: absolute;
   top: 0;
 }
 
-.hero-heading {
-  text-decoration: underline;
-  text-decoration-color: #FA114F;
+img.page-hero {
+  display: block;
+  margin-left: auto;
+  height: fit-content;
+  margin-right: auto;
+  max-width: 535px;
+  padding: 22px;
 }
 
-.hero-left{
-  top: 50%;
-  left: 19%;
-  inline-size: 320px;
-  transform: translate( -50%, -50% ); /*keeps texts in one place */
-  text-align: center;
-  color: #fff;
-  font-weight: bold;
-  font-size: 100%;
-}
-
-
-/* Top Navigation */
-.link {
-  padding: 5px 10px;
-  background: #030D2D;
-  color: #eee;
-  text-decoration: none;
-}
-
-.sticky-nav-spacer-div {
-  width: 250px;
-}
-
+/* Sticky Navigation */
 
 /*Makes the sticky navigation stick */
 .stick-it {
   position: fixed;
-  top:67px;
+  top: 45px;
   z-index: 1;
   right: 125px;
-}
-
-.sticky-nav{
-    width: 220px;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0px;
-    float: right;
-    border: 0px solid rgba(51, 51, 51, 0.06);
-    box-shadow: 0 0 8px 0 rgb(51 51 51 / 20%);
-    border-radius: 16px;
-    padding: 25px;
-    background-color: #fff;
-    margin-left: 20px;
-    margin-right: 20px;
 }
 
 .sticky-nav li {
   font-size: 16px;
   display: block;
-  }
-
-.sticky-nav a {
-  color:#FA114F;
-  text-decoration: none;
-  }
-
-/* This adjustment is so that the page scrolls to the correct place when you hit the nav links */
-.anchor { 
-  display: block;
-  position: relative;
-  top: -60px;
-  visibility: hidden;
-}
-
-
-/* Style the sticky nav links */
-.sticky-nav li {
   list-style-type: none;
-  position: relative;
   margin-bottom: 15px;
 }
 
@@ -133,44 +108,28 @@ img.page-hero {
   color: #030D2D !important;
   text-decoration: none;
 }
+
 .is-active a {
   font-weight: 700;
 }
+
 .is-active a:link, .is-active a:visited, .is-active a:hover, .is-active a:active, .is-active a:focus {
   color: #030D2D;
 }
+
 .is-active::before {
   position: absolute;
   content: "\25C0";
   font-size: 10px;
   margin-left: -35px;
   margin-top: 5px;
-  text-decoration: none;
 }
 
-
-.page-card-lg {
-  background: #fff;
-  border-radius: 16px;
-  box-shadow: 0 0 8px 0 rgb(51 51 51 / 20%);
-  max-width: 896px;
-  margin-top: 30px;
-  padding: 60px;
-  overflow: hidden;
-}
-
-.page-card-lg:first-child {
-  margin-top: 0;
-}
-
-.page-card-lg a{
-  color: #FA114F;
-}
-
-
-.page-content-container {
-  display: flex;
-  margin-top: 30px
+.anchor { 
+  display: block;
+  position: relative;
+  top: -60px;
+  visibility: hidden;
 }
 
 .sticky-nav-content-container{
@@ -181,10 +140,54 @@ img.page-hero {
   align-items: center;
 } 
 
+.sticky-nav{
+  position: -webkit-sticky; /* Safari Browsers */
+  position: sticky;
+  /* margin-right: 20px; */
+  display: none;
+  background-color: #fff;
+  border: 0px solid rgba(51,51, 51, 0.06);
+  border-radius: 16px;
+  box-shadow: 0 0 8px 0 rgba(51 51 51 / 20%);
+  overflow: hidden;
+  width: 220px;
+  float: right;
+  padding: 25px;
+  margin: 0 20px 0 20px;
+}
 
-/* images in page card */
-img {
-  max-width: 500px;
+.sticky-nav a {
+  color:#FA114F;
+  text-decoration: none;
+}
+
+/* The content container for page cards */
+
+.page-content-container {
+  display: flex;
+  margin-top: 20px;
+  scroll-behavior: smooth;
+}
+
+.page-card-lg {
+  background: #fff;
+  border: 0 solid rgba(51, 51, 51, 0.06);
+  border-radius: 16px;
+  box-shadow: 0 0 8px 0 rgb(51 51 51 / 20%);
+  overflow: hidden;
+  max-width: 525px;
+  margin-bottom: 0;
+  padding: 22px;
+  height: fit-content;
+  margin-bottom: 20px;
+}
+
+/* .page-card-lg:first-child {
+  margin-top: 0;
+} */
+
+.page-card-lg a{
+  color: #FA114F;
 }
 
 /* Scroll to Top */
@@ -206,98 +209,19 @@ img {
 
 /* ==========================================================*/
 
-/* Media Query for Small screens, Laptops (769px — 1024px) */
+/* Below are the breakpoints and adjustments for different size monitors */
 
 /* ==========================================================*/
 
-@media only screen and (max-width: 1024px)
+/* Bigger than mobile - 480px */
+
+@media only screen and (min-width: 320px)
 {
-
-.page-card-lg {
-    max-width: 518px;
-}
-
-.page-parallelogram {
-  overflow: hidden;
-  position: absolute;
-  left: -42%;
-  background-color: #030D2D;
-  width: 82.5%;
-  height: 100%;
-  transform: skew(333deg);
-  }
-  
-.hero-left {
-  position: absolute;
-  top: 52%;
-  left: 20%;
-  inline-size: 286px;
-  transform: translate( -54%, -50% );
-  font-size: 90%;
-  }
-  
-  img.page-hero {
-  display: block;
-  max-width: 108%;
-  max-height: 100%;
-}
-}
-
-/* ==========================================================*/
-
-/* Media Query for iPads, Tablets (481px — 768px) */
-
-/* ==========================================================*/
-
-/* For mobile phones - hides navbar */
-
-@media only screen and (max-width: 768px)
-{
-
-.sticky-nav-spacer-div {
-  width: 0;
-}
+ 
+} /* End Mobile Up */
 
 
-.page-card-lg {
-    max-width: 493px;
-}
-
-
-.hero-title {
-  visibility: hidden;
-  display: none;
-}
-
-.sticky-nav {
-    display: none;
- }
-
- /* Hides Guide Title in Mobile */
-.hero-container-guide h1 {
-  display: none;
-}
-
-.hero-left {
-  position: absolute;
-  font-size: 200%;
-}
-
-.page-card-lg {
-  background: #fff;
-  border-radius: 16px;
-  box-shadow: 0 0 8px 0 rgb(51 51 51 / 20%);
-  overflow: hidden;
-  max-width: 896px;
-  padding: 60px;
-  margin-left: 5px;
-}
-
-
-
-}
-
-/* Hides scroll to top button on screens that are 768px or larger */
+/* Bigger than tablet - 768px */
 
 @media screen and (min-width: 768px) {
 
@@ -310,46 +234,28 @@ img {
     display: none;
     visibility: hidden;
   }
+} /* End Tablet Up */
 
+/* Bigger than tablet - 768px */
 
-}
-
-/* ==========================================================*/
-
-/* Media Query for Mobile devices (320px — 480px) */
-
-/* ==========================================================*/
-
-/* For mobile phones - hides navbar */
-
-@media only screen and (max-width: 480px)
-{
-
-.hero-left {
-  position: absolute;
-  top: 50%;
-  left: 16%;
-  font-size: 160%;
-}
-
-}
-
-/* ==========================================================*/
-
-/* Media Query for Screens (min-width: 320px) */
-
-/* ==========================================================*/
-
-@media only screen and (min-width: 320px)
-{
-  .hero-container-guide {
-    flex-flow: row;
+@media screen and (min-width: 960px) {
+  
+  .sticky-nav {
+    visibility: visible;
   }
 
-  .page-parallelogram {
-    flex-flow: row;
+  /* .sticky-nav-spacer-div {
+    width: 250px;
+  } */
+
+  /* .sticky-nav-content-container{
+    margin-left: 100px;
+  } */
+
+  .page-card-lg{
+    margin: 12px 12px 40px;
+    max-width: 896px;
+    padding: 60px;
   }
+
 }
-
-
-
