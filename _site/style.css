@@ -242,14 +242,6 @@ img {
 @media only screen and (max-width: 1024px)
 {
 
-.page-card-lg {
-    max-width: 518px;
-}
-
-.page-card-lg-overview {
-  box-shadow: none;
-}
-
 .page-parallelogram {
   overflow: hidden;
   position: absolute;
