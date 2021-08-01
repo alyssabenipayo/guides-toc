@@ -1,6 +1,16 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   color:black;
+  background-color: #f7f5f5;
+  margin: 0;
+}
+
+header {
+  background-color: #fff;
+}
+
+head {
+  background-color: #fff;
 }
 
 .main-header {
@@ -8,7 +18,7 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  background: #fff;
+  background-color: #fff;
   box-shadow: 0 0 8px 0 #000;
   font-weight: bold;
   padding: 20px;
@@ -18,7 +28,6 @@ body {
 
 
 .header-container-guide {
-  margin: 61px 0 0 0;
   position: relative;
   display: flex;
   align-items: center;
@@ -27,7 +36,8 @@ body {
 
 img.page-hero {
   display: block;
-  margin-left: 4%;
+  margin-left: auto;
+  margin-right: auto;
   height: fit-content;
   max-width: 100%;
 }
@@ -41,7 +51,7 @@ img.page-hero {
   height: 100%;
   transform: skew(333deg);
   margin: auto;
-  }
+}
 
   /* Makes Hero Heading and Title appear on top of the parallelogram */
 .hero-left, .page-parallelogram{
@@ -159,20 +169,37 @@ img.page-hero {
   margin-top: 30px;
   padding: 60px;
   overflow: hidden;
-}
-
-.page-card-lg:first-child {
-  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .page-card-lg a{
   color: #FA114F;
 }
 
+.page-card-lg-overview {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 0 8px 0 rgb(51 51 51 / 20%);
+  max-width: 896px;
+  padding: 60px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page-card-lg-overview a{
+  color: #FA114F;
+}
+
+.page-card-lg:first-child {
+  margin-top: 0;
+}
+
 
 .page-content-container {
   display: flex;
-  margin-top: 30px
+  margin-top: 30px;
 }
 
 .content-container{
@@ -219,7 +246,11 @@ img {
     max-width: 518px;
 }
 
-/* .page-parallelogram {
+.page-card-lg-overview {
+  box-shadow: none;
+}
+
+.page-parallelogram {
   overflow: hidden;
   position: absolute;
   left: -42%;
@@ -227,15 +258,15 @@ img {
   width: 82.5%;
   height: 100%;
   transform: skew(333deg);
-  } */
+  }
   
 .hero-left {
   position: absolute;
-  top: 52%;
+  top: 47%;
   left: 20%;
   inline-size: 286px;
   transform: translate( -54%, -50% );
-  font-size: 90%;
+  font-size: 75%;
   }
   
   /* img.page-hero {
@@ -256,10 +287,21 @@ img {
 @media only screen and (max-width: 768px)
 {
 
+.page-content-container {
+  display: flex;
+  margin-top: 0;
+}
+
+  
 .sticky-nav-spacer-div {
   width: 0;
 }
 
+.page-card-lg-overview {
+  box-shadow: none;
+  border-radius: 0;
+  margin-top: 0;
+}
 
 .page-card-lg {
     max-width: 493px;
@@ -291,7 +333,7 @@ img {
   border-radius: 16px;
   box-shadow: 0 0 8px 0 rgb(51 51 51 / 20%);
   overflow: hidden;
-  max-width: 896px;
+  max-width: 444px;
   padding: 60px;
 }
 
@@ -327,11 +369,18 @@ img {
 @media only screen and (max-width: 480px)
 {
 
+.page-card-lg {
+  background: #fff;
+  max-width: 300px;
+}
+
+  
+
 .hero-left {
   position: absolute;
-  top: 55%;
+  top: 50%;
   left: 22%;
-  font-size: 160%;
+  font-size: 125%;
 }
 
 }
@@ -347,7 +396,7 @@ img {
 @media only screen and (max-width: 319px)
 {
 
-/* .page-parallelogram {
+.page-parallelogram {
     overflow: hidden;
     position: absolute;
     left: -42%;
@@ -355,7 +404,7 @@ img {
     width: 82.5%;
     height: 101%;
     transform: skew(333deg)
-} */
+}
 
 .hero-left {
   position: absolute;
