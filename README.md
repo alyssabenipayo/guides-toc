@@ -3,10 +3,10 @@
 Prototype Status: In Progress. [[Site Preview]](https://alyssabenipayo.github.io/guidepages-prototype/)
 
 Current Objectives:
-- Working on prototype's responsiveness.
+- Prototype currently in-review.
 
 Next Objectives:
-- Create Full versions of Survey, 2FA, and Getting Started with GitHub.
+- Implement prototype into HfLA's repository.
 - Finalize documentation on Guide Page Markdown process.
 
 More details can also be found in the following issues:
