@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-{% if page.sections %}
 
 <body>
 <div class="page-content-container">
@@ -12,8 +11,8 @@ layout: default
       {{ page.overview | markdownify }}
 
       <div class="guide-links">
-        <h2>In This Guide</h2>
         {% if page.sections %}
+        <h2>In This Guide</h2>
         <ul>
         {% for section in page.sections %}
           <li><a href="{{ section.href }}"> {{ section.title }} </a><br>
@@ -32,12 +31,13 @@ layout: default
     </div>
     <div class="page-card-lg">
     <!-- This page card contains the guide's content -->
-     {{content}}
+    {{content}}
     </div>
   </div>
 
   <div class="sticky-nav-container">
   <a class=anchor></a>
+  {% if page.sections %}
   <nav id="sticky-nav" class="sticky-nav">
       <ul>
         {% for section in page.sections %}
