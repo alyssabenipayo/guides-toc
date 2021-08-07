@@ -9,6 +9,10 @@ Next Objectives:
 - Implement prototype into HfLA's repository.
 - Finalize documentation on Guide Page Markdown process.
 
+Link to wireframes:
+- [Desktop](https://www.figma.com/file/0RRPy1Ph7HafI3qOITg0Mr/Hack-for-LA-Website?node-id=11036%3A91034)
+- [Mobile](https://www.figma.com/file/0RRPy1Ph7HafI3qOITg0Mr/Hack-for-LA-Website?node-id=11035%3A192)
+
 More details can also be found in the following issues:
 - [Research Formatted Guide Pages Parse with Markdown](https://github.com/hackforla/website/issues/1085)
 - [Design HfLA Guide Pages](https://github.com/hackforla/website/issues/1525)
