@@ -10,8 +10,9 @@ Next Objectives:
 - Finalize documentation on Guide Page Markdown process.
 
 Link to wireframes:
-- [Desktop](https://www.figma.com/file/0RRPy1Ph7HafI3qOITg0Mr/Hack-for-LA-Website?node-id=11036%3A91034)
-- [Mobile](https://www.figma.com/file/0RRPy1Ph7HafI3qOITg0Mr/Hack-for-LA-Website?node-id=11035%3A192)
+- [Desktop](https://www.figma.com/file/zp13t7IGvxubXRIGiLjClt/Hack-for-LA-Guide-Pages?node-id=0%3A19)
+- [Mobile](https://www.figma.com/file/zp13t7IGvxubXRIGiLjClt/Hack-for-LA-Guide-Pages?node-id=0%3A206)
+- [All Wireframes](https://www.figma.com/file/zp13t7IGvxubXRIGiLjClt/Hack-for-LA-Guide-Pages?node-id=0%3A2763)
 
 More details can also be found in the following issues:
 - [Research Formatted Guide Pages Parse with Markdown](https://github.com/hackforla/website/issues/1085)
