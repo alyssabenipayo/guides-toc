@@ -1,13 +1,18 @@
 ---
 layout: guide-pages
 title: 2FA Guide
-provider-link: '/2FA' 
+provider-link: '/2FA'
 sections:   
     - title: "To Enable 2FA"
       href: "#to-enable-2fa"
     - title: "FAQ"
       href: "#faq"
-overview: "Hack for LA requires two-factor authentication (2FA) in GitHub for all project contributors. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec efficitur faucibus volutpat. Cras condimentum sem in massa pellentesque molestie. Maecenas erat justo, auctor at nibh ut, vehicula hendrerit purus. Duis sed tempor justo. Aenean sollicitudin metus eu pellentesque iaculis. Aliquam erat volutpat. Etiam ultricies aliquet commodo. Curabitur tristique aliquam risus, in molestie lacus fermentum nec. Ut nunc urna, scelerisque nec erat non, congue vehicula tellus. Donec malesuada tortor lorem, non posuere diam molestie quis. Aliquam ullamcorper sollicitudin est, interdum mollis enim pharetra sit amet. Ut volutpat metus eu mi vestibulum, at auctor felis posuere. Etiam vel molestie dolor. Mauris gravida tristique auctor."
+      subsection: 
+        - title: "What is 2FA?"
+        - href: "#what-is-2fa?"
+        - title: "Why set up 2FA now?"
+        - href: "#why-set-up-2fa-now?"
+overview: "Hack for LA requires two-factor authentication (2FA) in GitHub for all project contributors. Lorem ipsum dolor sit amet consec."
 ---
 
 ## To Enable 2FA
@@ -15,7 +20,7 @@ overview: "Hack for LA requires two-factor authentication (2FA) in GitHub for al
 
 If you already have a 2FA application on your mobile phone, you can use that. If you do not already have a 2FA application you will be instructed to download your mobile app of choice (we have had good luck with Authy) and follow the detailed instructions to complete configuration in GitHub.
 
-<img src="images/2FA-Screenshot.png">
+<img src="assets/images/guides/2FA/2FA-Screenshot.png">
 
 ## FAQ
 
