@@ -49,11 +49,6 @@ sections:
       subsection: 
         - title: "Style Guide"
         - href: "#style-guide"
-overview: "Google Analytics includes a number of tools that allow individuals and teams to capture and analyze different types of data. These tools are especially valuable when it comes to survey-based user research.
-
-This guide will walk through the integration of Google Forms, Google Sheets, and Google Data Studio in order to visualize a set of user survey data.
-
-The example described includes connecting a Google Form to Google Sheets, cleaning a set of data within a Worksheet, and finally, building a data report in Google Data Studio."
 ---
 
 # **WHAT** IS THE GUIDE TEMPLATE

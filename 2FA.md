@@ -1,7 +1,8 @@
 ---
 layout: guide-pages
 title: 2FA Guide
-provider-link: '/2FA'
+provider-link: "/2FA"
+images: "/assets/images/guides/2FA/"
 sections:   
     - title: "To Enable 2FA"
       href: "#to-enable-2fa"
@@ -20,7 +21,7 @@ overview: "Hack for LA requires two-factor authentication (2FA) in GitHub for al
 
 If you already have a 2FA application on your mobile phone, you can use that. If you do not already have a 2FA application you will be instructed to download your mobile app of choice (we have had good luck with Authy) and follow the detailed instructions to complete configuration in GitHub.
 
-<img src="assets/images/guides/2FA/2FA-Screenshot.png">
+![image](2FA-Screenshot.png)
 
 ## FAQ
 
@@ -42,9 +43,6 @@ Two-factor authentication, or 2FA, is an extra layer of security used when loggi
 
 - There have been recent news items about hackers attempting to hold open source repositories for ransom. Although these attempts have mostly been unsuccessful, it is still a good reminder that we should use security best practices.
 
-
-
-<br>
 
 ### Encountering challenges using Git CLI after setting up 2FA? (Developers)
 

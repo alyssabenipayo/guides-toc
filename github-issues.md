@@ -1,7 +1,7 @@
 ---
 layout: guide-pages
 title: Getting the Most Out of GitHub Issues
-provider-link: '/github-issues' 
+provider-link: "/github-issues" 
 sections:   
     - title: "Example of a Good End-to-End Issue"
       href: "#example-of-a-good-end-to-end-issue"
