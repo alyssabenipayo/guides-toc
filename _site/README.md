@@ -3,11 +3,16 @@
 Prototype Status: In Progress. [[Site Preview]](https://alyssabenipayo.github.io/guidepages-prototype/)
 
 Current Objectives:
-- Working on prototype's responsiveness.
+- Prototype currently in-review.
 
 Next Objectives:
-- Create Full versions of Survey, 2FA, and Getting Started with GitHub.
+- Implement prototype into HfLA's repository.
 - Finalize documentation on Guide Page Markdown process.
+
+Link to wireframes:
+- [Desktop](https://www.figma.com/file/zp13t7IGvxubXRIGiLjClt/Hack-for-LA-Guide-Pages?node-id=0%3A19)
+- [Mobile](https://www.figma.com/file/zp13t7IGvxubXRIGiLjClt/Hack-for-LA-Guide-Pages?node-id=0%3A206)
+- [All Wireframes](https://www.figma.com/file/zp13t7IGvxubXRIGiLjClt/Hack-for-LA-Guide-Pages?node-id=0%3A2763)
 
 More details can also be found in the following issues:
 - [Research Formatted Guide Pages Parse with Markdown](https://github.com/hackforla/website/issues/1085)
