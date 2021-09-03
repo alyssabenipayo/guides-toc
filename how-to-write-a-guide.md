@@ -2,53 +2,6 @@
 layout: guide-pages
 title: How to Write a Guide
 provider-link: '/how-to-write-a-guide'
-sections:   
-    - title: "What is the Guide Template"
-      href: "#what-is-the-guide-template"
-      subsection: 
-        - title: "Alternatives or things to know"
-        - href: "#alternatives-or-things-to-know"
-    - title: "HOW TO WRITE A GUIDE"
-      href: "#how-to-write-a-guide"
-    - title: "HOW TO WRITE ABOUT PROCESSES"
-      href: "#how-to-write-about-processes"
-    - title: "HOW TO PROVIDE STEP BY STEP INSTRUCTIONS"
-      href: "#how-to-provide-step-by-step-instructions"
-    - title: "INSTRUCTIONS FOR USING THIS GUIDE’S TEMPLATES: Header & Guide"
-      href: "#instructions-for-using-this-guides-template"
-      subsection: 
-        - title: "CREATING AND STORING YOUR ASSETS"
-        - href: "#creating-and-storing-your-assets"
-        - title: "EDITING YOUR NEW GUIDE"
-        - href: "#editing-your-new-guide"
-    - title: "WHAT IS THIS GUIDE OR PROCESS?"
-      href: "#what-is-this-guide-or-process"
-      subsection: 
-        - title: "Alternatives or things to know?"
-        - href: "#alternatives-or-things-to-know"
-    - title: "WHAT IS TOOL NAME?"
-      href: "#what-is-tool-name"
-    - title: "HOW TO USE THE GUIDE OR PROCESS?"
-      href: "#how-to-use-the-guide-or-process"
-    - title: "PREREQUISITE FOR USING GUIDE"
-      href: "#prerequisite-for-using-guide"
-    - title: "INSTRUCTIONS FOR USING TEMPLATE: [Name of Template]"
-      href: "#instructions-for-using-template-name-of-template"
-    - title: "FAQ"
-      href: "#faq"
-    - title: "TROUBLESHOOTING When Trying to Execute the Steps"
-      href: "#troubleshooting-when-trying-to-execute-the-steps"
-    - title: "FORMATTING TEXT INCLUDING SECTION HEADERS & STEPS"
-      href: "#formatting-text-including-section-headers-and-steps"
-    - title: "FORMATTING IMAGES IN YOUR GUIDE"
-      href: "#formatting-images-in-your-guide"
-    - title: "HOW TO INCLUDE IMAGES IN YOUR GUIDE"
-      href: "#how-to-include-images-in-your-guide"
-    - title: "Additional Reference Material"
-      href: "#additional-reference-material"
-      subsection: 
-        - title: "Style Guide"
-        - href: "#style-guide"
 ---
 
 # **WHAT** IS THE GUIDE TEMPLATE

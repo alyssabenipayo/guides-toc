@@ -18,6 +18,8 @@ More details can also be found in the following issues:
 - [Research Formatted Guide Pages Parse with Markdown](https://github.com/hackforla/website/issues/1085)
 - [Design HfLA Guide Pages](https://github.com/hackforla/website/issues/1525)
 - [Create mobile version of the Guide Pages and ensure responsiveness](https://github.com/hackforla/website/issues/1515)
+- [Test of Markdown converter](https://github.com/hackforla/guides/issues/10)
+- [Work flow for guides to appear on the website](https://github.com/hackforla/website/issues/1630)
 
 
 # Quick Preview

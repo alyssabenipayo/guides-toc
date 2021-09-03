@@ -3,6 +3,14 @@ layout: default
 ---
 
 <body>
+
+<div class="sticky-nav-container">
+  <a class=anchor></a>
+  <nav id="sticky-nav" class="sticky-nav">
+    {% include toc.html html=content %}
+  </nav>
+</div>
+
 <div class="page-content-container">
   <div class="content-container">   
     <div class="page-card-lg-overview">
@@ -29,6 +37,7 @@ layout: default
         {% endif %}
       </div>
     </div>
+
     <div class="page-card-lg">
     <!-- This page card contains the guide's content -->
     {{content}}
@@ -40,7 +49,9 @@ layout: default
     </div>
   </div>
 
-  <div class="sticky-nav-container">
+
+
+  <!-- <div class="sticky-nav-container">
   <a class=anchor></a>
   {% if page.sections %}
   <nav id="sticky-nav" class="sticky-nav">
@@ -58,10 +69,10 @@ layout: default
         {% endfor %}
       </ul>
     {% endif %}
-  </nav> 
+  </nav>  -->
   <!-- <div class="sticky-nav-spacer-div"></div> -->
-</div>
-</div>
+<!-- </div> -->
+
 </body>
 
 <!-- Return to Top -->

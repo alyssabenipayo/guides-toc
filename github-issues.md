@@ -2,15 +2,6 @@
 layout: guide-pages
 title: Getting the Most Out of GitHub Issues
 provider-link: "/github-issues" 
-sections:   
-    - title: "Example of a Good End-to-End Issue"
-      href: "#example-of-a-good-end-to-end-issue"
-    - title: "Issue Sections: Descriptions and Tips"
-      href: "#issue-sections-descriptions-and-tips"
-    - title: "Issue Template"
-      href: "#issue-template"
-    - title: "Member Analytics"
-      href: "#member-analytics"
 overview: "Each of Hack for LA’s GitHub project repositories (repos) use [issues](https://guides.github.com/features/issues/) to track and organize ideas, enhancements, and tasks. All team members will use GitHub issues to communicate in our multifunctional teams.
 
 When creating a new GitHub issue, the following tips will help you provide consistent formatting, a clear and concise overview, actionable tasks, explanatory resources, and resumé items to add value for all volunteers.

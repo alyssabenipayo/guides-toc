@@ -2,17 +2,6 @@
 layout: guide-pages
 title: 2FA Guide
 provider-link: "/2FA"
-images: "/assets/images/guides/2FA/"
-sections:   
-    - title: "To Enable 2FA"
-      href: "#to-enable-2fa"
-    - title: "FAQ"
-      href: "#faq"
-      subsection: 
-        - title: "What is 2FA?"
-        - href: "#what-is-2fa?"
-        - title: "Why set up 2FA now?"
-        - href: "#why-set-up-2fa-now?"
 overview: "Hack for LA requires two-factor authentication (2FA) in GitHub for all project contributors. Lorem ipsum dolor sit amet consec."
 ---
 

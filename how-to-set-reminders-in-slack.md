@@ -1,26 +1,7 @@
 ---
 layout: guide-pages
-title: How to Set Reminders - An Easy How-To
+title: How to Set Reminders in Slack
 provider-link: "/how-to-set-reminders-in-slack"
-sections:   
-    - title: "What is Slack?"
-      href: "#what-is-slack"
-    - title: "When to Use Reminders ⏰"
-      href: "#when-to-use-reminders-"
-      subsection:
-        - title: "Who to Set Up Reminders For?"
-          href: "#who-to-set-up-reminders-for"
-        - title: "Type of Reminders"
-          href: "#type-of-reminders"
-    - title: "How to Set Up Reminders"
-      href: "#how-to-set-up-reminders-"
-      subsection:
-        - title: "Using Navigation Shortcuts"
-          href: "#using-navigation-shortcuts"
-        - title: "Direct Entry into the message box"
-          href: "#direct-entry-into-the-message-box"
-    - title: "Examples"
-      href: "#examples"
 ---
 
 # **What** is Slack?

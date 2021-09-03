@@ -115,12 +115,17 @@ img.page-hero {
 .sticky-nav li {
   font-size: 16px;
   display: block;
+  margin: 10px 0 10px 0;
   }
 
 .sticky-nav a {
   color:#FA114F;
   text-decoration: none;
   }
+
+  .sticky-nav ul {
+    padding: 0 0 0 20px;
+    }
 
 /* This adjustment is so that the page scrolls to the correct place when you hit the nav links */
 .anchor { 
