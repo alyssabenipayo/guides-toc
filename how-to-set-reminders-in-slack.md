@@ -25,7 +25,7 @@ Slack has a function that **allows you to set up an automatic reminder with a ta
 * Remind yourself to check back in with someone at a certain time
 
 
-# **How** to Set Up Reminders 🪢
+# **How** to Set Reminders ☑️
 
 **Reminders can be set up in two ways:**
 
